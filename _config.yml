@@ -19,15 +19,15 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Modern workplace blog                          # the main title
+title: M365 Dev Insights                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Empowering your productivity with M365 development insights   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://ValerasNarbutas.github.io'
 
 github:
   username: ValerasNarbutas             # change to your github username
