@@ -25,7 +25,7 @@ In addition to my technical expertise, I am also passionate about mentoring othe
 I am also committed to sharing my knowledge and expertise with the wider community. I am an active contributor to several open-source projects and have created several code samples and tools that have been widely adopted by other developers.
 
 
-![Community Contributor 2023](https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa){: .left }
+![Community Contributor 2023](https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa){: .left w="150" h="150" }
 Community Contributor 2023
 https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa/public_url
 
