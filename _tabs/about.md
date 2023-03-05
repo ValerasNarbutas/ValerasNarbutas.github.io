@@ -18,9 +18,11 @@ As an experienced Microsoft Modern Workplace Developer, I bring over 14 years of
 
 [Microsoft 365 Certified: Teams Application Developer Associate](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url)
 
-![Microsoft 365 Certified: Teams Application Developer Associate](https://images.credly.com/size/150x150/images/ef2853b2-4faf-4d27-8dec-5ddd71aa82bc/CERT-Associate-Microsoft365-Developer.png)
+[![Community Contributor 2023](https://images.credly.com/size/150x150/images/ef2853b2-4faf-4d27-8dec-5ddd71aa82bc/CERT-Associate-Microsoft365-Developer.png)](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url "Microsoft 365 Certified: Teams Application Developer Associate")
 
 In addition to my technical expertise, I am also passionate about mentoring others in the tech industry. I am an active member of [WomenGoTech](https://womengotech.com/), where I mentor women who are starting their careers in technology.
+
+[![https://womengotech.com/](/img/womenGotechLogo.png){: width="150" height="150" class="center"}](https://womengotech.com/ "WomenGoTech")
 
 I am also committed to sharing my knowledge and expertise with the wider community. I am an active contributor to several open-source projects and have created several code samples and tools that have been widely adopted by other developers.
 

@@ -24,4 +24,3 @@ Go Play with graph components in the playground:
 Templates:
 
 [Templates](https://mgt.dev/?path=/docs/samples-templating--teams-messages)
-
