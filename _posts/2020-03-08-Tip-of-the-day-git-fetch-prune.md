@@ -8,7 +8,7 @@ categories:
 tags:
   - git fetch
   - tipoftheday
-pin: true
+pin: false
 slug: tip-day-git-fetch-prune
 comments: true
 ---
