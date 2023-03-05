@@ -25,7 +25,7 @@ In addition to my technical expertise, I am also passionate about mentoring othe
 [![https://womengotech.com/](/img/womenGotechLogo.png){: width="150" height="150" class="center"}](https://womengotech.com/ "WomenGoTech")
 
 I am also committed to sharing my knowledge and expertise with the wider community. I am an active contributor to several open-source projects and have created several code samples and tools that have been widely adopted by other developers.
-
+Most of my code samples are available on [Microsoft 365 & Power Platform Community code samples](https://pnp.github.io/#samples)
 
 ## Badges by Credly
 
