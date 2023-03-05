@@ -32,16 +32,16 @@ Or when you need to be sure some item text value is not too big, like news summa
 
 {% raw %}
 ```hbs
-                 {{#gt Item.textValue.length 50}}
+  {{#gt Item.textValue.length 50}}
 
-                           {{ellipsis Item.textValue 50}} 
+    {{ellipsis Item.textValue 50}} 
 
-                           <button>Read more</button>
+    <button>Read more</button>
 
-                    {{else}}
+  {{else}}
 
     {{Item.textValue }}
 
-                    {{/gt}}
+  {{/gt}}
 ```
 {% endraw %}
