@@ -16,9 +16,11 @@ comments: true
 
 ## TIP: easiest way to truncate some text using handlebars
 
+{% raw %}
 ```hbs
  {{ellipsis "<span>foo bar bar bar</span>" 7}}
 ```
+{% endraw %}
 
 results in
 
@@ -28,6 +30,7 @@ results in
 
 Or when you need to be sure some item text value is not too big, like news summary spfx webpart:
 
+{% raw %}
 ```hbs
                  {{#gt Item.textValue.length 50}}
 
@@ -41,3 +44,4 @@ Or when you need to be sure some item text value is not too big, like news summa
 
                     {{/gt}}
 ```
+{% endraw %}
