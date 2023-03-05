@@ -100,9 +100,9 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
-    repo_id:
-    category:
+    repo:  ValerasNarbutas/ValerasNarbutas.github.io             # <gh-username>/<repo>
+    repo_id: 609823025
+    category: general
     category_id:
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
