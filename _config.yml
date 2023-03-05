@@ -101,9 +101,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo:  ValerasNarbutas/ValerasNarbutas.github.io             # <gh-username>/<repo>
-    repo_id: 609823025
+    repo_id: R_kgDOJFkpMQ
     category: Comments
-    category_id: 2
+    category_id: DIC_kwDOJFkpMc4CUq1L
     mapping: pathname        # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
