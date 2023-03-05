@@ -16,7 +16,7 @@ comments: true
 
 ## TIP: easiest way to truncate some text using handlebars
 
-```handlebars
+```hbs
  {{ellipsis "<span>foo bar bar bar</span>" 7}}
 ```
 
@@ -28,7 +28,7 @@ results in
 
 Or when you need to be sure some item text value is not too big, like news summary spfx webpart:
 
-```handlebars
+```hbs
                  {{#gt Item.textValue.length 50}}
 
                            {{ellipsis Item.textValue 50}} 
