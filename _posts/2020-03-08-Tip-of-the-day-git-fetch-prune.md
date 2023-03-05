@@ -13,6 +13,6 @@ if you use VS Code and get tired off git branches which are already deleted from
 
 ### Command code
 
-```command
+```git
 git fetch --prune
 ```
