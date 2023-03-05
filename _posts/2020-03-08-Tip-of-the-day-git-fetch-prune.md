@@ -10,6 +10,7 @@ tags:
   - tipoftheday
 pin: true
 slug: tip-day-git-fetch-prune
+comments: true
 ---
 
 ## Tip of the day: git fetch --prune
