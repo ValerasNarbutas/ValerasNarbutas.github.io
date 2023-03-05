@@ -24,7 +24,10 @@ title: M365 Dev Insights                          # the main title
 tagline: Empowering your productivity with M365 development insights   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  M365 Dev Insights provides the latest news, tips, and best 
+  practices for developers building on the Microsoft 365 platform. 
+  Stay up-to-date with the latest M365 development insights and empower your 
+  productivity with our expert guidance.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://ValerasNarbutas.github.io'
@@ -81,7 +84,7 @@ theme_mode: light  # [light|dark]
 img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/16476453?s=400&v=4
+avatar: https://avatars.githubusercontent.com/u/16476453
 
 # boolean type, the global switch for ToC in posts.
 toc: true
