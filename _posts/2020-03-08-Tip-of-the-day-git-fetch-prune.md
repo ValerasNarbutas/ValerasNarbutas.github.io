@@ -18,22 +18,6 @@ if you use VS Code and get tired off git branches which are already deleted from
 
 ### Command code
 
-```command
-    git fetch --prune
-```
-
-```typescript
-    git fetch --prune
-```
-
 ```powershell
-    git fetch --prune
-```
-
-```bash
-    git fetch --prune
-```
-
-```shell
     git fetch --prune
 ```
