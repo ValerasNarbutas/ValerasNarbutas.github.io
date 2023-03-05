@@ -6,10 +6,10 @@ order: 4
 
 ## About this blog
 
-At M365 Dev Insights Blog created maynly to store something i know i will forget also place were i can share my knoledge.
+At M365 Dev Insights Blog created mainly to store something i know i will forget also place were i can share my knowledge.
 I am passionate about technology and sharing knowledge with the community.
 
-I am trying to share helfull tips and code samples to help developers become more productive or jjust to help them to solve some problems.
+I am trying to share helpful tips and code samples to help developers become more productive or just to help them to solve some problems.
 I do believe in giving back to the community and offer mentoring and support to help aspiring developers and technology enthusiasts learn and grow.
 
 ## About me

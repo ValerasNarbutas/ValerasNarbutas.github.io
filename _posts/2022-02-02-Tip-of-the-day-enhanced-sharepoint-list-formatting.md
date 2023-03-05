@@ -8,9 +8,9 @@ categories:
 tags:
   - SharingIsCaring
   - tipoftheday
-  - SahrepointList
+  - SharepointList
   - SharepointFormatter
-  - EdgeExtention
+  - EdgeExtension
 pin: false
 slug: tip-day-enhanced-sharepoint-formatter
 comments: true

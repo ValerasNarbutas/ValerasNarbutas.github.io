@@ -18,7 +18,7 @@ comments: true
 try this:
 
 ```js
-console.log(`%cThis is great!!!! how didnt i knew it?`,'color: green; font-size: 20px')
+console.log(`%cThis is great!!!! how didn't i knew it?`,'color: green; font-size: 20px')
 ```
 
 ![Console log](/img/posts/console.png)

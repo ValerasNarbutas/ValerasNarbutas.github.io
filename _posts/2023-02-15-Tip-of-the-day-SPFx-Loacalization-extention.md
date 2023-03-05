@@ -1,5 +1,5 @@
 ---
-title: Tip Of The Day. SPFx Loacalization extention
+title: Tip Of The Day. SPFx Localization extension
 author: valeras
 date: 2023-02-15 20:55:00 +0800
 categories:
@@ -9,13 +9,13 @@ tags:
   - Sharepoint
   - tipoftheday
   - SPFx
-  - extention
+  - extension
 pin: false
 slug: tip-day-spfx-loacalization-extention
 comments: true
 ---
 
-## TIP: SPFx Loacalization extention for visual studio code
+## TIP: SPFx Localization extension for visual studio code
 
 Question - Why would you need such a thing?
 
