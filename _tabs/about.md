@@ -32,6 +32,7 @@ https://www.credly.com/badges/d281ecd7-b093-464c-85af-c254eeb498e3/public_url
 
 
 ![community-contributor-2021](/img/cert/community-contributor-2021.png){: .normal }
+![test](/img/cert/community-contributor-2021.png)
 
 Community Contributor 2021
 https://www.credly.com/badges/0f7d4c49-cc34-4bd7-bee5-b64006f73d49/public_url
