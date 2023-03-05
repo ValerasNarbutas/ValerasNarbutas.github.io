@@ -18,23 +18,23 @@ comments: true
 
 ### OLD
 
-1. copy either profiles either all data from this location
+- copy either profiles either all data from this location
 
-```
+```Plaintext
      C:\Users\%username%\AppData\Local\Google\Chrome\
 ```
 
-2. export registry from:
+- export registry from:
 
-```
+```Plaintext
      [HKEY_CURRENT_USER\Software\Google\Chrome\PreferenceMACs]
 ```
- 
 
 ### NEW
 
 - Copy either profile data or all data to:
-```
+
+```Plaintext
  C:\Users\%username%\AppData\Local\Google\Chrome\
  ```
 

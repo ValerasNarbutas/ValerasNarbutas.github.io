@@ -26,5 +26,4 @@ Answer:
 - Very easy to add new resource/language/string and translate it.
 - And other stuff like import export..
 
-
 [SPFx Localization](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-spfx-localization)

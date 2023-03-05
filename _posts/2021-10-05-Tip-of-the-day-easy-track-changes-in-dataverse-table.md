@@ -20,7 +20,7 @@ comments: true
 
 [TipOfTheDay - Easy Track changes in dataverse table via dataverse API](https://pnp.github.io/blog/post/tipoftheday-easy-track-changes-in-dataverse-table-via-dataverse/)
 
-## TIP: Did you know you can easily track changes in dataverse table via data verse API.
+## TIP: Did you know you can easily track changes in dataverse table via data verse API
 
 I am using postman:
 
@@ -38,6 +38,6 @@ I am using postman:
 
 - use delta token in same request structure ![Img3](/img/posts/dataverse3.png)
 
-- Were are no changes that happen last time we did request to accounts table. If I do changes like: new, edit, and delete in accounts i will get this: 
+- Were are no changes that happen last time we did request to accounts table. If I do changes like: new, edit, and delete in accounts i will get this:
 
 ![Img4](/img/posts/dataverse4.png)
