@@ -1,6 +1,6 @@
 ---
 title: Tip of the day - git fetch --prune
-author: ValerasNarbutas
+author: valeras
 date: 2020-03-08 20:55:00 +0800
 categories: [TipOfTheDay, TipsAndTricks]
 tags: [git fetch]
@@ -13,6 +13,6 @@ if you use VS Code and get tired off git branches which are already deleted from
 
 ### Command code
 
-```git
+```command
 git fetch --prune
 ```
