@@ -13,7 +13,7 @@ slug: tip-day-respnsive-grid-css
 comments: true
 ---
 
-## TIP: Respnsive grid using CSS
+## TIP: Responsive grid using CSS
 
 almost the most common CSS problem to any project I had is mobile responsiveness. Many ways to do it using @media attribute, but I found most useful oneliner to make items responsive:
 
