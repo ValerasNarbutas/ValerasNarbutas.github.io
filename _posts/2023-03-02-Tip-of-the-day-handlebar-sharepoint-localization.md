@@ -16,6 +16,7 @@ comments: true
 
 ## TIP: you can use sharepoint pagecontext to display multilanguage content in handlebar templates
 
+{% raw %}
 ```handlebars
 {{#compare pageContext.web.language '==' 1043}}
 
@@ -31,5 +32,6 @@ comments: true
 
 {{/compare}}
 ```
+{% endraw %}
 
 This mostly related to SPFX Content query webpart, search query webparts, any other webparts with handlebars
