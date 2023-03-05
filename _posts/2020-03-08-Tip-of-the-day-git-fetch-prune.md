@@ -1,5 +1,5 @@
 ---
-title: Tip of the day: git fetch --prune
+title: Tip of the day - git fetch --prune
 author: ValerasNarbutas
 date: 2020-03-08 20:55:00 +0800
 categories: [TipOfTheDay, TipsAndTricks]
