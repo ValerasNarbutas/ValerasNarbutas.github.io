@@ -17,13 +17,11 @@ slug: extract-space-content-type-modern-page-template-save-sharepoint
 comments: true
 ---
 
-## Extract Space content type Modern page as template and save to SharePoint
-
-### Summary
+## Summary
 
 This script will extract Space content type page as template file and saves it as new space page to SharePoint. Note, this script does not include referenced files e.g. images, videos etc.
 
-```PowerShell
+```powerShell
 
 [CmdletBinding()]
 param (
@@ -99,7 +97,7 @@ process {
 }
 ```
 
-### PNP Script sample site
+## PNP Script sample site
 
 [Script sample site](https://pnp.github.io/script-samples/spo-export-space-page-as-template-and-save-to-sharepoint/README.html?tabs=pnpps)
 
