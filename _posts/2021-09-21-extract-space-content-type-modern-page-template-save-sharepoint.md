@@ -9,6 +9,9 @@ categories:
 tags:
   - SharingIsCaring
   - M365Pnp
+  - Contributing
+  - OpenSource
+  - PNP PowerShell
 pin: false
 slug: extract-space-content-type-modern-page-template-save-sharepoint
 comments: true
