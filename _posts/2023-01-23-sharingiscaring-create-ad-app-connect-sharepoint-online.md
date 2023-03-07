@@ -21,8 +21,7 @@ comments: true
 
 Create an Azure AD app, add permissions and connect it to SharePoint Online.
 
-{% raw %}
-```powerShell
+```powershell
 
 Install-Module AzureAD
 
@@ -64,7 +63,7 @@ Connect-PnPOnline -Url "https://yourtenantname.sharepoint.com" -ClientId $newApp
 # Execute standard SharePoint commands
 Get-pnpSite
 ```
-{% endraw %}
+
 
 ## PNP Script sample site
 
