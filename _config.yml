@@ -24,9 +24,9 @@ title: M365 Dev Insights                          # the main title
 tagline: Empowering your productivity with M365 development insights   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  M365 Dev Insights provides the latest news, tips, and best 
-  practices for developers building on the Microsoft 365 platform. 
-  Stay up-to-date with the latest M365 development insights and empower your 
+  M365 Dev Insights provides the latest news, tips, and best
+  practices for developers building on the Microsoft 365 platform.
+  Stay up-to-date with the latest M365 development insights and empower your
   productivity with our expert guidance.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
@@ -96,7 +96,7 @@ comments:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: ValerasNarbutas/ValerasNarbutas.github.io 
+    repo: ValerasNarbutas/ValerasNarbutas.github.io
     issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
@@ -126,7 +126,7 @@ paginate: 10
 
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts:    # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
