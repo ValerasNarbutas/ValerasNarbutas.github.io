@@ -28,7 +28,7 @@ Working and processing lists items in large lists. PnP PowerShell and M365 CLI e
 2.  Create a new file
 3.  Copy a script below
 
-```powerShell
+```powershell
 
 $url = "https://yourtenantname.sharepoint.com/sites/SiteCollection"
 $list = "YourLargeList"
@@ -81,7 +81,7 @@ Invoke-PnPBatch -Batch $batch
 
 ### Using M365 CLI
 
-```powerShell
+```powershell
 
 
 $url = "Site Url"

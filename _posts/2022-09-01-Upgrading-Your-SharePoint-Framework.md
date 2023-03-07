@@ -19,19 +19,20 @@ comments: true
 
 1. Install Microsoft 365 CLI globally
     
-```powerShell
+```powershell
+
 npm install -g @microsoft/365-cli
 ```
 
 2. Run the following command to get report on the upgrade process
     
-```powerShell
+```powershell
 m365 spfx project upgrade --toVersion 1.14.0 --output md > "upgrade-report.md"
 ```
 
 3. Open the report file and review the changes that will be applied to your project
     
-```powerShell
+```powershell
 notepad upgrade-report.md
 ```
 

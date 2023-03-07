@@ -21,7 +21,7 @@ comments: true
 
 This script will extract Space content type page as template file and saves it as new space page to SharePoint. Note, this script does not include referenced files e.g. images, videos etc.
 
-```powerShell
+```powershell
 
 [CmdletBinding()]
 param (
