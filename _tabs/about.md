@@ -27,6 +27,10 @@ In addition to my technical expertise, I am also passionate about mentoring othe
 I am also committed to sharing my knowledge and expertise with the wider community. I am an active contributor to several open-source projects and have created several code samples and tools that have been widely adopted by other developers.
 Most of my code samples are available on [Microsoft 365 & Power Platform Community code samples](https://pnp.github.io/#samples)
 
+🐙 My git hub profile is [https://github.com/ValerasNarbutas](https://github.com/ValerasNarbutas)
+📄 My Online resume is [https://valerasnarbutas.github.io/cv/](https://valerasnarbutas.github.io/cv/)
+
+
 ## Badges by Credly
 
 [![Community Contributor 2023](https://images.credly.com/size/110x110/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](http://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa "Community Contributor 2023")
