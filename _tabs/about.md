@@ -28,6 +28,7 @@ I am also committed to sharing my knowledge and expertise with the wider communi
 Most of my code samples are available on [Microsoft 365 & Power Platform Community code samples](https://pnp.github.io/#samples)
 
 🐙 My git hub profile is [https://github.com/ValerasNarbutas](https://github.com/ValerasNarbutas)
+
 📄 My Online resume is [https://valerasnarbutas.github.io/cv/](https://valerasnarbutas.github.io/cv/)
 
 
