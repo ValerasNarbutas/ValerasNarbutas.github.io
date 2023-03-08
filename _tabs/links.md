@@ -25,3 +25,8 @@ order: 5
 
 - [Microsoft Fluent UI](https://developer.microsoft.com/en-us/fluentui#/controls/web)
 - [Fluent UI React Components v9.15.6](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
+
+## Microsoft graph toolkit
+
+- [Microsoft Graph Toolkit Playground](https://mgt.dev/next/?path=/story/overview--page)
+- [Microsoft Graph Toolkit Playground v3](https://mgt.dev/next/v3/)
