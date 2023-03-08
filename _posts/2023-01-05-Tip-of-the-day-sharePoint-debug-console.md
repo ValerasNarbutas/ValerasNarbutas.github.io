@@ -7,6 +7,7 @@ categories:
   - Sharepoint
 tags:
   - Sharepoint
+  - SharepointOnline
   - tipoftheday
   - debug
 pin: false
@@ -20,5 +21,8 @@ comments: true
 - Check performance
 - Check SharePoint entities manifests
 - Even check if PnP extensibility libraries loaded
+
+> This option works only on Modern Sharepoint Pages
+{: .prompt-info }
 
 ![SharePoint debug console by using Ctrl+f12](/img/posts/debugf12.png)
