@@ -15,6 +15,7 @@ pin: false
 slug: ci-cd-spfx-deployment-azure-devops-m365-cli
 comments: true
 preview: /img/posts/releasepipeline.PNG
+image: /img/posts/releasepipeline.PNG
 draft: false
 ---
 
