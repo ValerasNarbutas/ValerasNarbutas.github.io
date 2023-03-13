@@ -28,28 +28,32 @@ At first it seemed like a simple task. But as i began to dig deeper, i realized 
 
 Over th internet i found many articles and blog posts that described the deployment process. But none of them provided a complete solution. Until i asked amazing community at Discord server: [CLI for Microsoft 365](https://lnkd.in/ehRDFGqb)
 
-So first big thanks to: 
-  Special thanks to Arjun Menon @arjunumenon for most complete and up to date article on this topic and especially my scenario:
-    [https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/)
+ Special thanks to the following individuals for their support
 
-  Adam Wójcik @Adam-it for multiple tips and tricks plus resources
-    [https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app](https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app)
-    [https://github.com/marketplace/actions/cli-for-microsoft-365-login](https://github.com/marketplace/actions/cli-for-microsoft-365-login)
-    [https://github.com/marketplace/actions/cli-for-microsoft-365-run-script](https://github.com/marketplace/actions/cli-for-microsoft-365-run-script)
-    [https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow](https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow)
- 
-  Garry Trinder @garrytrinder for multiple tips and tricks plus resources
-   [https://pnp.github.io/cli-microsoft365/user-guide/github-actions/](https://pnp.github.io/cli-microsoft365/user-guide/github-actions/)
-   [https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
-  
-  Milan Holemans @milanholemans for the last missing piece of the puzzle
-   ```powershell
+  - Arjun Menon 👨‍💻 @arjunumenon - For providing the most complete and up to date article on this topic, which was especially helpful for my scenario. Check it out here: https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/ 📖
+
+  - Adam Wójcik 👨‍💻 @Adam-it - For sharing multiple tips and tricks as well as resources that made this project possible. Here are some of the Github Marketplace actions that Adam has created and shared:
+    - [CLI for Microsoft 365 - Deploy App](https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app) 💻
+    - [CLI for Microsoft 365 - Login](https://github.com/marketplace/actions/cli-for-microsoft-365-login) 🔑
+    - [CLI for Microsoft 365 - Run Script](https://github.com/marketplace/actions/cli-for-microsoft-365-run-script) 📜
+    - [TilesLinksForSPOnline](https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow) 🧱
+
+  - Garry Trinder 👨‍💻 @garrytrinder - For sharing multiple tips and tricks as well as resources that made this project possible. Check out the user guide for Github Actions with M365 CLI by Garry here: https://pnp.github.io/cli-microsoft365/user-guide/github-actions/ 📖
+
+  - Milan Holemans 👨‍💻 @milanholemans - For providing the last missing piece of the puzzle. Your contribution was greatly appreciated! 💯
+
+ ```powershell
    # added line right after m365 login
       m365 spo set --url https://tenant.sharepoint.com/sites/sitecollection
    ```
+
+Thank you all for your contributions to my success 😃
+  
+
+  
   
  
-> Scripts and project structure is same as in Arjun's article. I only added some extra steps to make it more complete. At least for my scenario. For initial setup and project structure please refer to Arjun's article.
+> Scripts and project structure is same as in [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/) . I only added some extra steps to make it more complete. At least for my scenario. For initial setup and project structure please refer to [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/).
 {: .prompt-info }
 
  
@@ -130,7 +134,7 @@ CreateSelfSignedCertificate -CommonName $CommonName -StartDate $StartDate -EndDa
 
 ## Step 3: Create Azure Active Directory app - AAD app
 
-  This step in Arjun's article done using scripts i also added here but for my scenario i could not use adminautoconsent option i also coul not use permission scopes:
+  This step in [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/) done using scripts i also added here but for my scenario i could not use adminautoconsent option i also coul not use permission scopes:
 
   ```
   Sharepoint application permissions
