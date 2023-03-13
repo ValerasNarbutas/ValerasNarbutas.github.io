@@ -32,7 +32,7 @@ Over th internet i found many articles and blog posts that described the deploym
 
   - Arjun Menon 👨‍💻 [@arjunumenon](https://github.com/arjunumenon) - For providing the most complete and up to date article on this topic, which was especially helpful for my scenario. Check it out here: https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/ 📖
 
-  - Adam Wójcik 👨‍💻 [@Adam-it](https://github.com/Adam-it) - For sharing multiple tips and tricks as well as resources that made this project possible. Here are some of the Github Marketplace actions that Adam has created and shared:
+  - Adam Wójcik 👨‍💻 [@Adam-it](https://github.com/Adam-it) - For sharing multiple tips and tricks as well as resources that made this project possible. Here are some of the Github Marketplace actions that Adam shared:
     - [CLI for Microsoft 365 - Deploy App](https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app) 💻
     - [CLI for Microsoft 365 - Login](https://github.com/marketplace/actions/cli-for-microsoft-365-login) 🔑
     - [CLI for Microsoft 365 - Run Script](https://github.com/marketplace/actions/cli-for-microsoft-365-run-script) 📜
@@ -50,9 +50,6 @@ Over th internet i found many articles and blog posts that described the deploym
 Thank you all for your contributions to my success 😃
   
 
-  
-  
- 
 > Scripts and project structure is same as in [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/) . I only added some extra steps to make it more complete. At least for my scenario. For initial setup and project structure please refer to [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/).
 {: .prompt-info }
 
@@ -75,7 +72,7 @@ The solution needed to meet the following requirements:
   This is a variable group where the settings of SharePoint deployments is given
     ![](/img/posts/sharepointGroup.PNG)
 
-## Step 2: Create certificate for authentication to m265 cli
+## Step 2: Create certificate for authentication to M365 cli
 
 Script to create certificate
 
