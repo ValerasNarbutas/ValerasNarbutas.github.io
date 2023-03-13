@@ -30,17 +30,17 @@ Over th internet i found many articles and blog posts that described the deploym
 
  Special thanks to the following individuals for their support
 
-  - Arjun Menon 👨‍💻 @arjunumenon - For providing the most complete and up to date article on this topic, which was especially helpful for my scenario. Check it out here: https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/ 📖
+  - Arjun Menon 👨‍💻 [@arjunumenon](https://github.com/arjunumenon) - For providing the most complete and up to date article on this topic, which was especially helpful for my scenario. Check it out here: https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/ 📖
 
-  - Adam Wójcik 👨‍💻 @Adam-it - For sharing multiple tips and tricks as well as resources that made this project possible. Here are some of the Github Marketplace actions that Adam has created and shared:
+  - Adam Wójcik 👨‍💻 [@Adam-it](https://github.com/Adam-it) - For sharing multiple tips and tricks as well as resources that made this project possible. Here are some of the Github Marketplace actions that Adam has created and shared:
     - [CLI for Microsoft 365 - Deploy App](https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app) 💻
     - [CLI for Microsoft 365 - Login](https://github.com/marketplace/actions/cli-for-microsoft-365-login) 🔑
     - [CLI for Microsoft 365 - Run Script](https://github.com/marketplace/actions/cli-for-microsoft-365-run-script) 📜
     - [TilesLinksForSPOnline](https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow) 🧱
 
-  - Garry Trinder 👨‍💻 @garrytrinder - For sharing multiple tips and tricks as well as resources that made this project possible. Check out the user guide for Github Actions with M365 CLI by Garry here: https://pnp.github.io/cli-microsoft365/user-guide/github-actions/ 📖
+  - Garry Trinder 👨‍💻 [@garrytrinder](https://github.com/garrytrinder) - For sharing multiple tips and tricks as well as resources that made this project possible. Check out the user guide for Github Actions with M365 CLI by Garry here: https://pnp.github.io/cli-microsoft365/user-guide/github-actions/ 📖
 
-  - Milan Holemans 👨‍💻 @milanholemans - For providing the last missing piece of the puzzle. Your contribution was greatly appreciated! 💯
+  - Milan Holemans 👨‍💻 [@milanholemans](https://github.com/milanholemans) - For providing the last missing piece of the puzzle. Your contribution was greatly appreciated! 💯
 
  ```powershell
    # added line right after m365 login
