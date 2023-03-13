@@ -406,7 +406,7 @@ In release variable tabs link both groups created in earlier step
 View in devops
   ![](/img/posts/devopsFolderstructure.PNG)
 
-## The End
+## End of the journey
 
 And that, my dear readers, is the saga of CI/CD for SPFx deployment in Azure DevOps using M365 CLI. May it inspire you to embark on your own journey of discovery and innovation. For who knows what treasures await those who dare to explore the depths of the technological landscape.
 
