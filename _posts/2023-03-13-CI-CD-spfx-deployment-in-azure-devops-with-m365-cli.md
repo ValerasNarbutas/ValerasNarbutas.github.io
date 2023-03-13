@@ -165,7 +165,7 @@ After permissions consented by tenant admin i needed to do following addition st
   Connect-PnPOnline $site -Interactive
   Grant-PnPAzureADAppSitePermission -AppId "app id from azure (Client ID)" -DisplayName "PDPApp CI-CD Deployment App" -Site $site  -Permissions FullControl 
   ```
-  Big thanks to video from @paolo Pialorsi 
+  Big thanks to video from [@paoloPia](https://github.com/PaoloPia) 
   [https://www.youtube.com/watch?v=SNIF3zCYNUk](https://www.youtube.com/watch?v=SNIF3zCYNUk)
 
 
