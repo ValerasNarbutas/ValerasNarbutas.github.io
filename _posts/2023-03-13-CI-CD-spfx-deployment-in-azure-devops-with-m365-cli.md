@@ -401,7 +401,7 @@ In release variable tabs link both groups created in earlier step
 
 ## Project Folder Structure and scripts used in pipeline
 
-  ![](/img/posts/projectFolder.PNG)
+  [https://github.com/ValerasNarbutas/PDPApp](https://github.com/ValerasNarbutas/PDPApp)
 
 View in devops
   ![](/img/posts/devopsFolderstructure.PNG)
