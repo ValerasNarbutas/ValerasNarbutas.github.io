@@ -29,18 +29,25 @@ At first it seemed like a simple task. But as i began to dig deeper, i realized 
 Over th internet i found many articles and blog posts that described the deployment process. But none of them provided a complete solution. Until i asked amazing community at Discord server: [CLI for Microsoft 365](https://lnkd.in/ehRDFGqb)
 
 So first big thanks to: 
-  Adam Wójcik for multiple tips and tricks plus resources
+  Special thanks to Arjun Menon @arjunumenon for most complete and up to date article on this topic and especially my scenario:
+    [https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/)
+
+  Adam Wójcik @Adam-it for multiple tips and tricks plus resources
     [https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app](https://github.com/marketplace/actions/cli-for-microsoft-365-deploy-app)
     [https://github.com/marketplace/actions/cli-for-microsoft-365-login](https://github.com/marketplace/actions/cli-for-microsoft-365-login)
     [https://github.com/marketplace/actions/cli-for-microsoft-365-run-script](https://github.com/marketplace/actions/cli-for-microsoft-365-run-script)
     [https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow](https://github.com/Adam-it/TilesLinksForSPOnline/actions/runs/671871098/workflow)
  
-  Garry Trinder for multiple tips and tricks plus resources
+  Garry Trinder @garrytrinder for multiple tips and tricks plus resources
    [https://pnp.github.io/cli-microsoft365/user-guide/github-actions/](https://pnp.github.io/cli-microsoft365/user-guide/github-actions/)
    [https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
   
-  Special thanks to Arjun Menon for most complete and up to date article on this topic and especially my scenario:
-  [https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/)
+  Milan Holemans @milanholemans for the last missing piece of the puzzle
+   ```powershell
+   # added line right after m365 login
+      m365 spo set --url https://tenant.sharepoint.com/sites/sitecollection
+   ```
+  
  
 > Scripts and project structure is same as in Arjun's article. I only added some extra steps to make it more complete. At least for my scenario. For initial setup and project structure please refer to Arjun's article.
 {: .prompt-info }
@@ -392,9 +399,12 @@ In release variable tabs link both groups created in earlier step
         arguments: ' -PackageFolder "$(System.DefaultWorkingDirectory)/$(ProjectFolder)/drop/$(SolutionPackageLocation)" -packageName "$(PackageName)" -URL "$(SiteCollection)"'
     ```
 
-## Project Folder Structure and scrits used in pipeline
+## Project Folder Structure and scripts used in pipeline
 
   ![](/img/posts/projectFolder.PNG)
+
+View in devops
+  ![](/img/posts/devopsFolderstructure.PNG)
 
 ## The End
 
