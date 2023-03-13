@@ -16,6 +16,8 @@ slug: ci-cd-spfx-deployment-azure-devops-m365-cli
 comments: true
 ---
 
+![](/img/posts/releasepipeline.PNG)
+
 ## How it all began
 
 Gather around, my dear readers, for I have a saga to tell. A tale of brave warriors who embarked on a journey to conquer the treacherous land of CI/CD for SPFx deployment. This is a story of how they harnessed the power of M365 CLI and Azure DevOps to emerge victorious.
