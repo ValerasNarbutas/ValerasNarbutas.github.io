@@ -30,3 +30,9 @@ order: 5
 
 - [Microsoft Graph Toolkit Playground](https://mgt.dev/next/?path=/story/overview--page)
 - [Microsoft Graph Toolkit Playground v3](https://mgt.dev/next/v3/)
+
+## SPFX fast serve
+https://spblog.net/post/2021/10/26/spfx-fast-serve-with-spfx-1-13-support
+
+## Configure postman to work wit AAD AP
+https://spblog.net/post/2021/11/02/configure-postman-to-be-easily-used-with-any-azure-ad-protected-api-sharepoint-graph-etc
