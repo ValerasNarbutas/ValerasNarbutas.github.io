@@ -13,6 +13,7 @@ tags:
 pin: false
 slug: tip-day-handlebar-helper-content-query-web-part-spfx
 comments: true
+draft: false
 ---
 
 ## Tip of the day: Copy to clipboard button for Content query web part (SPFX)
@@ -77,3 +78,7 @@ In Content Query web part - at last step - add this js file to External Scripts
 Result:
 
 ![](/img/posts/contentqueryresult.PNG)
+
+## Conclusion
+
+In this post, we've seen how to add a copy to clipboard button to your SharePoint Content Query web part using the copyToClipBoard Handlebars helper. This helper is a great way to add a copy to clipboard button to any property in your Content Query web part, allowing your users to quickly copy important information without having to manually select and copy the text.
