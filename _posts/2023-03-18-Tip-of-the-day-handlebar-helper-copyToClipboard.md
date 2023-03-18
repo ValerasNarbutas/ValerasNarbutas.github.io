@@ -20,7 +20,7 @@ draft: false
 
 Are you looking for a way to add a copy to clipboard button to your SharePoint [https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-content-query-online](Content Query web part)? Look no further than the *copyToClipBoard Handlebars helper*!
 
-With this helper, you can easily add a copy to clipboard button to any property in your Content Query web part, allowing your users to quickly copy important information without having to manually select and copy the text.
+With this helper, you can easily add a copy to clipboard button to any property in your Content Query web part, allowing your users to quickly copy important information without having to manually select and copy the text. 
 
 ### Handlebars code
 
