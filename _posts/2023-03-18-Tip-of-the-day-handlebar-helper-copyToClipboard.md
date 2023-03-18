@@ -1,7 +1,7 @@
 ---
 title: Tip of the day handlebar helper copyToClipboard
 author: valeras
-date: 2023-03-18 20:55:00 +0800
+date: 2023-03-17 20:55:00 +0800
 categories:
   - TipOfTheDay
   - Sharepoint
@@ -14,6 +14,7 @@ pin: false
 slug: tip-day-handlebar-helper-spfx
 comments: true
 draft: false
+lastmod: 2023-03-18T12:29:11.396Z
 ---
 
 ## Tip of the day: Copy to clipboard button for Content query web part (SPFX)
