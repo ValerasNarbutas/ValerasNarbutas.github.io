@@ -11,7 +11,7 @@ tags:
   - spfx
   - contentquerywebpart
 pin: false
-slug: tip-day-handlebar-helper-content-query-web-part-spfx
+slug: tip-day-handlebar-helper-spfx
 comments: true
 draft: false
 ---
