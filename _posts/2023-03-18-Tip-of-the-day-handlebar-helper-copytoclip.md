@@ -71,14 +71,9 @@ To implement the copyToClipBoard helper in your SharePoint web part, you can use
 };
 ```
 
-> Note: rename "yournamespace" to your own namespace
-  {: .prompt-info }
-
-> Note: Put javascript file in sharepoint library, i named my js: my.js
-  {: .prompt-info }
-
-> Note: Also svg in the example not realy nice :) you can use your own svg or image file
-  {: .prompt-info }
+- Rename "yournamespace" to your own namespace. 
+- Put javascript file in sharepoint library
+- Svg in the example not really best :) but you can use your own svg or image file
 
 In Content Query web part - at last step - add this js file to External Scripts
 
