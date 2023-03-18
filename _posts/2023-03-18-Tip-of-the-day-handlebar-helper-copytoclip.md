@@ -11,10 +11,10 @@ tags:
   - spfx
   - contentquerywebpart
 pin: false
-slug: tip-day-handlebar-helper-spfx
+slug: tip-day-handlebar-copytoclip
 comments: true
 draft: false
-lastmod: 2023-03-18T12:29:11.396Z
+
 ---
 
 ## Tip of the day: Copy to clipboard button for Content query web part (SPFX)
