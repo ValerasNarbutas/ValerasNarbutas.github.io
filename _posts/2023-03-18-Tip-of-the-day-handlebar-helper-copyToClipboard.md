@@ -4,7 +4,7 @@ author: valeras
 date: 2023-03-18 20:55:00 +0800
 categories:
   - TipOfTheDay
-  - Handlebar
+  - Sharepoint
 tags:
   - handlebar
   - copytoclipboard
