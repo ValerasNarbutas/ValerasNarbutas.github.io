@@ -7,12 +7,11 @@ categories:
   - Handlebar
 tags:
   - handlebar
-  - tipoftheday
-  - copyToClipboard
-  - SPFX
-  - Content query web part
+  - copytoclipboard
+  - spfx
+  - contentquerywebpart
 pin: false
-slug: tip-day-handlebar-helper-copytoclipboard-content-query-web-part-spfx
+slug: tip-day-handlebar-helper-content-query-web-part-spfx
 comments: true
 ---
 
@@ -67,6 +66,7 @@ To implement the copyToClipBoard helper in your SharePoint web part, you can use
 
 > Note: rename "yournamespace" to your own namespace
   {: .prompt-info }
+
 > Note: Put javascript file in sharepoint library, i named my js: my.js
   {: .prompt-info }
 
