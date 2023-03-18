@@ -12,7 +12,7 @@ tags:
   - Azure DevOps
   - M365 CLI
 pin: false
-slug: ci-cd-spfx-deployment-azure-devops-m365-cli-ww
+slug: tip-day-handlebar-helper
 comments: true
 # preview: /img/posts/releasepipeline.PNG
 # image: /img/posts/releasepipeline.PNG
