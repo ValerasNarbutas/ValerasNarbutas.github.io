@@ -77,11 +77,11 @@ To implement the copyToClipBoard helper in your SharePoint web part, you can use
 
 In Content Query web part - at last step - add this js file to External Scripts
 
-![](/img/posts/contentQueryWebpartLaststep.PNG)
+![](/img/posts/contentQueryWebpartLaststep1.PNG)
 
 Result:
 
-![](/img/posts/contentqueryresult.PNG)
+![](/img/posts/contentqueryresult1.PNG)
 
 ## Conclusion
 
