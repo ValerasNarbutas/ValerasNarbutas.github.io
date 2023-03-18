@@ -1,6 +1,5 @@
 ---
-title: Tip of the day - handlebar helper copyToClipboard for Content query web part
-  (SPFX)
+title: Tip of the day - handlebar helper copyToClipboard
 author: valeras
 date: 2023-03-18 20:55:00 +0800
 categories:
@@ -23,6 +22,8 @@ Are you looking for a way to add a copy to clipboard button to your SharePoint [
 
 With this helper, you can easily add a copy to clipboard button to any property in your Content Query web part, allowing your users to quickly copy important information without having to manually select and copy the text.
 
+### Handlebars code
+
 To use the copyToClipBoard helper, simply include it in your SharePoint web part and call it with the name of the property you want to copy to the clipboard. Here's an example of template code that uses the copyToClipBoard:
 
 {% raw %}
@@ -37,6 +38,8 @@ To use the copyToClipBoard helper, simply include it in your SharePoint web part
   {: .prompt-info }
 
 In this example, Title is the name of the property that you want to copy to the clipboard. When the user clicks the copy to clipboard button, the value of the Title property will be copied to the clipboard.
+
+### JavaScript code
 
 To implement the copyToClipBoard helper in your SharePoint web part, you can use the following code:
 
