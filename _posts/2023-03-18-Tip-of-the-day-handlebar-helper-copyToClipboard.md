@@ -17,7 +17,7 @@ slug: tip-day-handlebar-helper-copytoclipboard-content-query-web-part-spfx
 comments: true
 ---
 
-## Tip of the day: git fetch --prune
+## Tip of the day: Copy to clipboard button for Content query web part (SPFX)
 
 Are you looking for a way to add a copy to clipboard button to your SharePoint [https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-content-query-online](Content Query web part)? Look no further than the *copyToClipBoard Handlebars helper*!
 
