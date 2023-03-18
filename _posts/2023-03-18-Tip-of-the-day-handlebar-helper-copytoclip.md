@@ -35,7 +35,7 @@ To use the copyToClipBoard helper, simply include it in your SharePoint web part
 ```
 {% endraw %}
 
-> Note: Html code is not reacquired, you can use just handlebar code
+> Note: Html code is not required, you can use just handlebar code
   {: .prompt-info }
 
 In this example, Title is the name of the property that you want to copy to the clipboard. When the user clicks the copy to clipboard button, the value of the Title property will be copied to the clipboard.
