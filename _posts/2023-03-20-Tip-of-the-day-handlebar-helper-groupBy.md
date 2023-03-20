@@ -1,5 +1,5 @@
 ---
-title: Tip of the day handlebar helper groupBy with option to sort by property
+title: Tip of the day handlebar helper groupBy with the option to sort by a property
 author: valeras
 date: 2023-03-20 10:55:00 +0800
 categories:
