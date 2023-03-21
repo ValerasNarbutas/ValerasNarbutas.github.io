@@ -137,7 +137,7 @@ Add link to the file in last step of property pane in Content Query Web Part.
 ```
 {% endraw %}
 
-- Example hot to use join helper:
+- Example how to use join helper:
 
 {% raw %}
 ```hbs
@@ -150,7 +150,7 @@ Add link to the file in last step of property pane in Content Query Web Part.
 ```
 {% endraw %}
 
-- Example hot to use json helper:
+- Example how to use json helper:
 
 {% raw %}
 ```hbs
@@ -158,7 +158,7 @@ Add link to the file in last step of property pane in Content Query Web Part.
 ```
 {% endraw %}
 
-- Example hot to use math helper:
+- Example how to use math helper:
 
 {% raw %}
 ```hbs
@@ -169,7 +169,7 @@ Add link to the file in last step of property pane in Content Query Web Part.
 ```
 {% endraw %}
 
-- Example hot to use switch, case, and default helper:
+- Example how to use switch, case, and default helper:
 
 {% raw %}
 ```hbs
