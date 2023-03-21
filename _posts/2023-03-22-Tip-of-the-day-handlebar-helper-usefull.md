@@ -29,7 +29,7 @@ draft: false
 
 ### Introduction:
 
-In SharePoint Framework (SPFx) Content Query Web Part, Handlebars.js is used as a templating engine to render dynamic content. One of the common requirements is to group and display data based on certain properties. In this blog post, we will create a list of  custom Handlebars:
+In SharePoint Framework (SPFx) Content Query Web Part, Handlebars.js is used as a template'ing engine to render dynamic content. One of the common requirements is to group and display data based on certain properties. In this blog post, we will create a list of  custom Handlebars:
 
 **ifEquals**: This helper checks if two values are equal and renders a block of code based on the result. The options.fn(this) code renders the block of code inside the ifEquals block, while the options.inverse(this) code renders the block of code inside the else block.
 
