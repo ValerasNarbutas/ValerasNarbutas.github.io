@@ -2,10 +2,11 @@ function getSiteBaseAddress(){
 
     var baseSiteAddress = (document.location.host === "valerasnarbutas.github.io") ?
         document.location.origin + "/posts" : document.location.origin;
-    console.log("baseSiteAddress: " + baseSiteAddress);
-    console.log("document.location.origin: " + document.location.origin);
-    console.log("document.location.host: " + document.location.host);
-    return baseSiteAddress;
+        // baseSiteAddress: https://valerasnarbutas.github.io/posts
+        // document.location.origin: https://valerasnarbutas.github.io
+        // document.location.host: valerasnarbutas.github.io
+    // return baseSiteAddress;
+    return document.location.origin;
 }
 
 $(function (){
