@@ -21,6 +21,7 @@ tags:
   - Sharepoint
 pin: false
 slug: tip-day-handlebar-helper-ifequals-join-json-math-switch-case-default
+image: /img/posts/customHelpersMain.PNG
 comments: true
 draft: false
 ---
