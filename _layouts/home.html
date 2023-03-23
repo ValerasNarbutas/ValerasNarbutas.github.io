@@ -43,7 +43,9 @@ layout: page
     <div class="card post-preview">
       <a href="{{ post.url | relative_url }}">
         <div class="image-preview">
-          <img class="card-img-top" src="{{ relative_url.post.image.path | default: 'https://placehold.co/600x400' }}" alt="{{ post.image.alt | default: 'Preview Image' }}">
+          <!-- <img class="card-img-top" src="{{ '/assets'.post.image.path | default: 'https://placehold.co/600x400' }}" alt="{{ post.image.alt | default: 'Preview Image' }}"> -->
+          <img class="card-img-top" src="{{ post.image.path | prepend:'/assets' | default: 'https://placehold.co/600x400' }}" alt="{{ post.image.alt | default: 'Preview Image' }}">
+
         </div>
         <div class="card-body">
           <h1 class="card-title">
