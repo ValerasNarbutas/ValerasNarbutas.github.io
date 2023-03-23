@@ -21,7 +21,10 @@ tags:
   - Sharepoint
 pin: false
 slug: tip-day-handlebar-helper-ifequals-join-json-math-switch-case-default
-image: /img/posts/customHelpersMain.PNG
+image: 
+   path: /img/posts/customHelpersMain.PNG
+   alt: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and
+    default
 comments: true
 draft: false
 ---
