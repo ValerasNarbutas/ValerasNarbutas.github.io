@@ -13,7 +13,8 @@ $(function (){
     console.log("main.js loaded");
     getSiteBaseAddress();
     //if tabs, if tabs contain m365 load JSON file, if tabs contain -PnP load file
-    if($("a[data-tab='cli-m365-ps']") || $("a[data-tab='m365cli-bash']")){
+    // if($("a[data-tab='cli-m365-ps']") || $("a[data-tab='m365cli-bash']")){
+        if("div[data-label-text=Powershell']"){
 
         var jsonHelpPath = getSiteBaseAddress() +"/assets/help/cli.help.json";
 
@@ -91,7 +92,8 @@ $(function (){
     function updateCmdletWithHelpLinks(tabs, cmdlet, cmdHelpUrl) {
 
         $.each(tabs, function (_i, tab) {
-            $("section[data-tab='" + tab + "'] pre code").contents().each(function (index, line) {
+            // $("section[data-tab='" + tab + "'] pre code").contents().each(function (index, line) {
+            $(".highlight code pre").contents().each(function (index, line) {
                 var objLine = $(line);
 
                 if (objLine.text().indexOf(cmdlet) > -1) {
