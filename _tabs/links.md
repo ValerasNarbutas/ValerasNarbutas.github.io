@@ -39,3 +39,6 @@ https://spblog.net/post/2021/11/02/configure-postman-to-be-easily-used-with-any-
 
 ## Kiota
 https://microsoft.github.io/kiota/add-api.html
+
+## Toolkit
+https://learn.microsoft.com/en-us/training/paths/m365-teams-toolkit-vsc/
