@@ -36,3 +36,6 @@ https://spblog.net/post/2021/10/26/spfx-fast-serve-with-spfx-1-13-support
 
 ## Configure postman to work wit AAD AP
 https://spblog.net/post/2021/11/02/configure-postman-to-be-easily-used-with-any-azure-ad-protected-api-sharepoint-graph-etc
+
+## Kiota
+https://microsoft.github.io/kiota/add-api.html
