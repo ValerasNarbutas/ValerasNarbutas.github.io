@@ -6,7 +6,7 @@ categories:
   - TipOfTheDay
   - TipsAndTricks
 tags:
-  - git fetch
+  - git cheat sheet
   - tipoftheday
 pin: false
 slug: tip-day-git-fetch-prune
