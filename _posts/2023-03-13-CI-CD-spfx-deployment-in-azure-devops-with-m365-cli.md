@@ -137,7 +137,7 @@ CreateSelfSignedCertificate -CommonName $CommonName -StartDate $StartDate -EndDa
 
 ## Step 3: Create Azure Active Directory app - AAD app
 
-  This step in [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/) done using scripts i also added here but for my scenario i could not use adminautoconsent option i also coul not use permission scopes:
+  This step in [Arjun's article](https://arjunumenon.com/ci-cd-spfx-deployment-azure-devops-m365-cli/) done using scripts i also added here but for my scenario i could not use adminautoconsent option i also could not use permission scopes:
 
   ```
   Sharepoint application permissions
@@ -156,7 +156,9 @@ CreateSelfSignedCertificate -CommonName $CommonName -StartDate $StartDate -EndDa
   Graph application permissions
   Sites.Selected
   ```
-  
+
+ > note: If the user who executes the script does not have admin consent, they can pass AutoAdminConsent as false so that script will not try to auto consent, but rather gives you back the URL which you can share it with Global Admin where the Global admin can click the URL and approve the permissions. 
+ {: .prompt-info}
 
 So i created APP manually and added required API permissions. 
 
