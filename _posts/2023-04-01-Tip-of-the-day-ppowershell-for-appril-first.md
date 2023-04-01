@@ -1,5 +1,5 @@
 ---
-title: Tip of the day - Powershell for April first
+title: Tip of the day - Powershell for April first. Tricks and pranks
 author: valeras
 date: 2023-04-01 10:55:00 +0800
 categories:
