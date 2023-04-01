@@ -28,15 +28,15 @@ Apply these pranks to your colleagues' computers. They will be surprised and wil
 > Note: If you have any other ideas for pranks, please share them in the comments.
 {: .prompt-info }
 
-### Most useful commands
+## Most useful commands
 
-1. Self destruct the computer:
+### Self destruct the computer:
 
 ```powershell
 Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak("A critical system error has occurred, the computer will self destruct in 20 . 19 . 18 . 17 . 16 . 15 . 10 . 9 . 8 . 7 . 6 . 5 . 4 . 3 . 2 . 1 . 0 . 0 . 0 .  This has been a test of the Windows Emergency Alert System");
 ```	
 
-2. Help message:
+### Help message:
 
 ```powershell
 Add-Type -AssemblyName System.speech
@@ -44,19 +44,19 @@ $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $speak.Speak('Come see the violence inherent in the system. Help! Help! Im being repressed!')
 ```
 
-3. Set mouse sensitivity to 200: 
+### Set mouse sensitivity to 200: 
 
 ```powershell
    set-itemProperty 'HKCU:\Control Panel\Mouse' -name MouseSensitivity -value 200
 ```
 
-4.  Change the wallpaper to a funny meme or a picture of a colleague's pet:
+###  Change the wallpaper to a funny meme or a picture of a colleague's pet:
 
 ```powershell
     Set-ItemProperty -path 'HKCU:\Control Panel\Desktop' -name wallpaper -value 'C:\path\to\image.jpg'
 ```
 
-5.  Play a funny sound effect when a colleague opens a program:
+### Play a funny sound effect when a colleague opens a program:
 
 ```powershell
    Add-Type -AssemblyName PresentationCore
@@ -67,7 +67,7 @@ $speak.Speak('Come see the violence inherent in the system. Help! Help! Im being
 
 ```
 
-6.  Change the font style and size of a colleague's text editor:
+###  Change the font style and size of a colleague's text editor:
 
 ```powershell
     Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Notepad" -Name "lfFaceName" -Value "Comic Sans MS"
@@ -75,7 +75,7 @@ $speak.Speak('Come see the violence inherent in the system. Help! Help! Im being
 
 ```
 
-7.  Add a funny message to the Windows lock screen:
+###  Add a funny message to the Windows lock screen:
 
 ```powershell
     $lockScreenMessage = "Don't worry, I won't tell anyone about your secret love for pineapple pizza!"
@@ -84,7 +84,7 @@ $speak.Speak('Come see the violence inherent in the system. Help! Help! Im being
 
 ```
 
-8. Play imperial march:
+### Play imperial march:
 
 ```powerShell
 [console]::beep(440,500)      
