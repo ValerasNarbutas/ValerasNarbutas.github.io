@@ -3,6 +3,7 @@ title: Upgrading Your SharePoint Framework (SPFx) Project
 author: valeras
 date: 2022-09-01 20:55:00 +0800
 categories:
+  - SharingIsCaring
   - SPFX
 tags:
   - spfx
@@ -17,27 +18,19 @@ comments: true
 
 ## Upgrading Your SharePoint Framework (SPFx) Project to the Latest Version: Using M365 CLI
 
-1. Install Microsoft 365 CLI globally
-    
+1. Install Microsoft 365 CLI globally   
 ```sh
-
 npm install -g @microsoft/365-cli
 ```
-
-2. Run the following command to get report on the upgrade process
-    
+2. Run the following command to get report on the upgrade process  
 ```sh
 m365 spfx project upgrade --toVersion 1.14.0 --output md > "upgrade-report.md"
 ```
-
-3. Open the report file and review the changes that will be applied to your project
-    
+3. Open the report file and review the changes that will be applied to your project    
 ```sh
 notepad upgrade-report.md
 ```
-
 4. under summary section, you will see the list of changes that will be applied to your project. If you are happy with the changes, run the following command to apply the changes
-
 ## Issues i encountered
 
 1. Dublicate packages in package.json like: 
@@ -50,8 +43,6 @@ notepad upgrade-report.md
 ![dublicates](/img/posts/dublicates.PNG)
 
 i just removed the older version and kept the latest one.
-
-
     
 ## Conclusion
 
