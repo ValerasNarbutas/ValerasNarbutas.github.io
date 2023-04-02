@@ -22,7 +22,7 @@ When submitting code to open source project, you need to have the latest code fr
 
 ### Commands
 
-1.  When your are in your local fork repo, run in console:
+1. When your are in your local fork repo, run in console:
 
 ```powershell
     git checkout main
@@ -30,37 +30,37 @@ When submitting code to open source project, you need to have the latest code fr
 > Note: "main" is a name of branch.
 {: .prompt-info }
 
-2.  If you have remote named "**upstream**" which points to the original repo, run in console:
+2. If you have remote named "**upstream**" which points to the original repo, run in console:
 
 ```powershell
     git fetch upstream
 ```
 
-3.  Update your local "**main**" branch with the latest code from the original repo:
+3. Update your local "**main**" branch with the latest code from the original repo:
 
 ```powershell
     git pull --rebase upstream main
 ```
 
-4.  Create a new branch name "**updates-myupdate**" for your changes:
+4. Create a new branch name "**updates-myupdate**" for your changes:
 
 ```powershell
     git checkout -b updates-myupdate
 ```
 
-5.  Make your changes and commit them:
+5. Make your changes and commit them:
 
 ```powershell
     git commit -m "My update"
 ```
 
-6.  Push your changes to your forked repo:
+6. Push your changes to your forked repo:
 
 ```powershell
     git push origin updates-myupdate
 ```
 
-7.  Create a pull request from your forked repo to the original repo.
+7. Create a pull request from your forked repo to the original repo.
 
 ```powershell
     git pull --rebase upstream main
