@@ -20,49 +20,43 @@ image:
 
 When submitting code to open source project, you need to have the latest code from the main branch. If you don't, you will get merge conflicts. To avoid this, you need to fetch the latest code from the main branch and rebase your branch on top of it. This is the list of commands you need to run.
 
+
+### Ordered list
+
+1. Firstly
+    sdsd
+2. Secondly
+3. Thirdly
 ### Commands
 
 1. When your are in your local fork repo, run in console:
-
-```powershell
-    git checkout main
-```
-> Note: "main" is a name of branch.
-{: .prompt-info }
-
+      ```powershell
+          git checkout main
+      ```
+      > Note: "main" is a name of branch.
+      {: .prompt-info }
 2. If you have remote named "**upstream**" which points to the original repo, run in console:
-
-```powershell
-    git fetch upstream
-```
-
+      ```powershell
+          git fetch upstream
+      ```
 3. Update your local "**main**" branch with the latest code from the original repo:
-
-```powershell
-    git pull --rebase upstream main
-```
-
+      ```powershell
+          git pull --rebase upstream main
+      ```
 4. Create a new branch name "**updates-myupdate**" for your changes:
-
-```powershell
-    git checkout -b updates-myupdate
-```
-
+      ```powershell
+          git checkout -b updates-myupdate
+      ```
 5. Make your changes and commit them:
-
-```powershell
-    git commit -m "My update"
-```
-
+      ```powershell
+          git commit -m "My update"
+      ```
 6. Push your changes to your forked repo:
-
-```powershell
-    git push origin updates-myupdate
-```
-
+      ```powershell
+          git push origin updates-myupdate
+      ```
 7. Create a pull request from your forked repo to the original repo.
-
-```powershell
-    git pull --rebase upstream main
-```
+      ```powershell
+          git pull --rebase upstream main
+      ```
 
