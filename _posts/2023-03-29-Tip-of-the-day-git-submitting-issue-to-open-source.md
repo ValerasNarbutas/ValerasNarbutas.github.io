@@ -21,12 +21,6 @@ image:
 When submitting code to open source project, you need to have the latest code from the main branch. If you don't, you will get merge conflicts. To avoid this, you need to fetch the latest code from the main branch and rebase your branch on top of it. This is the list of commands you need to run.
 
 
-### Ordered list
-
-1. Firstly
-    sdsd
-2. Secondly
-3. Thirdly
 ### Commands
 
 1. When your are in your local fork repo, run in console:
