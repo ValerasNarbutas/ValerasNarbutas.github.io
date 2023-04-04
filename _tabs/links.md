@@ -26,6 +26,10 @@ order: 5
 - [Microsoft Fluent UI](https://developer.microsoft.com/en-us/fluentui#/controls/web)
 - [Fluent UI React Components v9.15.6](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
 
+## Oh Shit Git
+- [Microsft Graph API explorer](https://ohshitgit.com/)](https://ohshitgit.com/)
+
+
 ## Microsoft graph toolkit
 
 - [Microsoft Graph Toolkit Playground](https://mgt.dev/next/?path=/story/overview--page)
