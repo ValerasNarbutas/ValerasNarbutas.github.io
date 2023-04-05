@@ -24,6 +24,7 @@ comments: true
 image:
   path: /img/posts/customHelpersMain.PNG
   alt: Tip of the day handlebar helper
+render_with_liquid: false
 ---
 
 ## Tip of the day: Creating and Using a Custom Handlebars ifEquals, join, json, math, switch, case, and default SPFx Content Query Web Part (SPFX)
@@ -52,7 +53,7 @@ First, let's create the custom Handlebars helper that will include all custom he
   ReactContentQuery.ExternalScripts.handlebarsCustomHelpers = {
   onPreRender: function (wpContext, handlebarsContext) {
     
-    //{% raw %}{{ ifEquals a b }}{% endraw %}
+    //{{ ifEquals a b }}
     handlebarsContext.registerHelper("ifEquals", function (a, b, options) {
       if (a === b) {
         return options.fn(this);
@@ -61,12 +62,12 @@ First, let's create the custom Handlebars helper that will include all custom he
       }
     });
 
-    //{% raw %} {{join myArray ", "}}{% endraw %}
+    //{{join myArray ", "}}
     handlebarsContext.registerHelper("join", function (array, separator) {
       return array.join(separator);
     });
 
-    //{% raw %}  <pre>{{json myObject}}</pre>{% endraw %}
+    //<pre>{{json myObject}}</pre>
     handlebarsContext.registerHelper("json", function (obj) {
       return JSON.stringify(obj);
     });
