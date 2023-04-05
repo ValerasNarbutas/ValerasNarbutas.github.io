@@ -11,6 +11,9 @@ tags:
 pin: false
 slug: teams-tabs-export-csv
 comments: true
+image:
+  path: /img/posts/wikiTeams.png
+  alt: Get teams tabs and export to CSV
 ---
 
 ## Summary
