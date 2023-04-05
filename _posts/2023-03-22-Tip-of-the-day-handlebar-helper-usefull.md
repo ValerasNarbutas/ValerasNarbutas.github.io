@@ -1,6 +1,5 @@
 ---
-title: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and
-  default
+title: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and default
 author: valeras
 date: 2023-03-21 10:55:00 +0800
 categories:
@@ -21,12 +20,10 @@ tags:
   - Sharepoint
 pin: false
 slug: tip-day-handlebar-helper-ifequals-join-json-math-switch-case-default
-image: 
-   path: /img/posts/customHelpersMain.PNG
-   alt: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and
-    default
 comments: true
-draft: false
+image:
+  path: /img/posts/customHelpersMain.PNG
+  alt: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and default
 ---
 
 ## Tip of the day: Creating and Using a Custom Handlebars ifEquals, join, json, math, switch, case, and default SPFx Content Query Web Part (SPFX)

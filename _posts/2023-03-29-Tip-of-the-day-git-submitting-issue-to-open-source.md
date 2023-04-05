@@ -9,11 +9,11 @@ tags:
   - git cheat sheet
   - tipoftheday
 pin: false
-slug: tip-day-git-fetch-prune
+slug: tip-day-submitting-code-open-source-github-project
 comments: true
-image: 
-   path: /img/posts/gitCommands.png
-   alt: Tip of the day - Submitting code to open source github project
+image:
+  path: /img/posts/gitCommands.png
+  alt: Tip of the day - Submitting code to open source github project
 ---
 
 ## Tip of the day: git commands to submit code to open source project. CheatSheet
