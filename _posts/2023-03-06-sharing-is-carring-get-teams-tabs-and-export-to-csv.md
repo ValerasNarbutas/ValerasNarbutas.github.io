@@ -22,7 +22,7 @@ This script will locate all Teams having a Wiki and export the list to CSV
 
 ## Pre-requisites
 
--  More about Microsoft Graph PowerShell SDK [https://github.com/pnp/script-samples/blob/main/docfx/includes/MORE-GRAPHSDK.md](https://github.com/pnp/script-samples/blob/main/docfx/includes/MORE-GRAPHSDK.md)
+-  More about Microsoft Graph PowerShell SDK [https://learn.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0](https://learn.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0)
 
 
 ```powershell
