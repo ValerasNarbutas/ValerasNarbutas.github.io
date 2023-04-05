@@ -51,7 +51,8 @@ First, let's create the custom Handlebars helper that will include all custom he
 ```javascript
   ReactContentQuery.ExternalScripts.handlebarsCustomHelpers = {
   onPreRender: function (wpContext, handlebarsContext) {
-    // {{ifEquals a b}}
+    
+    //{% raw %}{{ ifEquals a b }}{% endraw %}
     handlebarsContext.registerHelper("ifEquals", function (a, b, options) {
       if (a === b) {
         return options.fn(this);
@@ -60,12 +61,12 @@ First, let's create the custom Handlebars helper that will include all custom he
       }
     });
 
-    // {{join myArray ", "}}
+    //{% raw %} {{join myArray ", "}}{% endraw %}
     handlebarsContext.registerHelper("join", function (array, separator) {
       return array.join(separator);
     });
 
-    // <pre>{{json myObject}}</pre>
+    //{% raw %}  <pre>{{json myObject}}</pre>{% endraw %}
     handlebarsContext.registerHelper("json", function (obj) {
       return JSON.stringify(obj);
     });
