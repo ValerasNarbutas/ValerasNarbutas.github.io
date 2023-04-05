@@ -23,7 +23,7 @@ slug: tip-day-handlebar-helper-ifequals-join-json-math-switch-case-default
 comments: true
 image:
   path: /img/posts/customHelpersMain.PNG
-  alt: Tip of the day handlebar helper ifEquals, join, json, math, switch, case, and default
+  alt: Tip of the day handlebar helper
 ---
 
 ## Tip of the day: Creating and Using a Custom Handlebars ifEquals, join, json, math, switch, case, and default SPFx Content Query Web Part (SPFX)
