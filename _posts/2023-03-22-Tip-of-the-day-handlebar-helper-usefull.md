@@ -47,7 +47,7 @@ In SharePoint Framework (SPFx) Content Query Web Part, Handlebars.js is used as 
 ### Step 1: Create the custom Handlebars helper file
 
 First, let's create the custom Handlebars helper that will include all custom helper we need
-
+{% raw %}
 ```javascript
   ReactContentQuery.ExternalScripts.handlebarsCustomHelpers = {
   onPreRender: function (wpContext, handlebarsContext) {
@@ -116,6 +116,7 @@ First, let's create the custom Handlebars helper that will include all custom he
   },
 };
 ```
+{% endraw %}
 > Note: Save file as handlebarsCustomHelpers.js
   {: .prompt-info }
 
