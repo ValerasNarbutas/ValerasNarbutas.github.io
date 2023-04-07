@@ -1,25 +1,6 @@
 /*
   Post-specific style
 */
-.egg {
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  background-color: #FFD700;
-  display: inline-block;
-  width: 50px;
-  height: 70px;
-  position: relative;
-}
-.drop {
-  animation: drop 5s linear;
-}
-@keyframes drop {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(100vh - 70px);
-  }
-}
 
 
 
