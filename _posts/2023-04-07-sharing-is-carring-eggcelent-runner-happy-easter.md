@@ -33,7 +33,7 @@ To get started with Eggcellence Runner, visit the project's repository on GitHub
 In conclusion, Eggcellence Runner is a delightful addition to your SharePoint site this Easter season. It offers a fun, engaging, and interactive gaming experience for users, all while showcasing the capabilities of the SharePoint Framework. Give Eggcellence Runner a try and bring some Easter cheer to your organization!
 
 
-## Imaportant Note
+## Important Note
 
 This is a simple untested and unsupported sample. It is provided as is and without any warranty.
 It does contain bugs and is not intended for production use. :)
