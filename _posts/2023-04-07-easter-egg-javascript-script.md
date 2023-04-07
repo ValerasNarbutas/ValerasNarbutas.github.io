@@ -22,7 +22,7 @@ Bring some Easter magic to your website with a playful animation that transforms
 
 Type "**easter**" now !!! :)
 
-
+![](/img/posts/eggs.gif)
 
 ## Features 🌟
 
