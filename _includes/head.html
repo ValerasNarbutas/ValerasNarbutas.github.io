@@ -109,6 +109,38 @@
   <!-- JavaScript -->
 
   <script src="{{ site.data.assets[origin].jquery.js | relative_url }}"></script>
+  <script>
+  (function () {
+    const keyword = "easter";
+    let typed = "";
+    document.addEventListener("keydown", (event) => {
+      typed += event.key;
+      if (typed.length > keyword.length) {
+        typed = typed.substring(1);
+      }
+      if (typed === keyword) {
+        transformDivsToEggs();
+      }
+    });
+
+    function transformDivsToEggs() {
+      const divs = document.getElementsByTagName("div");
+      for (const div of divs) {
+        div.classList.add("egg");
+      }
+      setTimeout(() => {
+        dropEggs();
+      }, 100);
+    }
+
+    function dropEggs() {
+      const eggs = document.getElementsByClassName("egg");
+      for (const egg of eggs) {
+        egg.classList.add("drop");
+      }
+    }
+  })();
+</script>
  <!-- Code highlighter helper -->
   <script src="/assets/js/HiglitherHelper.js"></script>
 
