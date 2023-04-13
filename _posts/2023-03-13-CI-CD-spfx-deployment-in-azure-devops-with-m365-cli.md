@@ -14,6 +14,9 @@ tags:
 pin: false
 slug: ci-cd-spfx-deployment-azure-devops-m365-cli
 comments: true
+image:
+  path: /img/posts/azurePipeline.png
+  alt: CI/CD for SPFx Deployment in Azure DevOps using M365 CLI
 # preview: /img/posts/releasepipeline.PNG
 # image: /img/posts/releasepipeline.PNG
 
@@ -238,14 +241,15 @@ executeAADAppCreation
 ## Step 4: Create Azure DevOps Pipeline
 
   My pipeline steps are:
-    1. Trigger on main branch
-    2. Use Variable Group 'Deployment - SharePoint Environment' which contains all variables
-    3. Install Node 14.15.0
-    4. npm install
-    5. SPFx - Bundle Solution
-    6. SPFx - Package Solution
-    7. Copy files to Azure File Share - spfx package
-    8. Copy files to Azure File Share - powershell scripts for release
+    
+  1. Trigger on main branch
+  2. Use Variable Group 'Deployment - SharePoint Environment' which contains all variables
+  3. Install Node 14.15.0
+  4. npm install
+  5. SPFx - Bundle Solution
+  6. SPFx - Package Solution
+  7. Copy files to Azure File Share - spfx package
+  8. Copy files to Azure File Share - powershell scripts for release
 
   Full yaml template for pipeline is here:
 
