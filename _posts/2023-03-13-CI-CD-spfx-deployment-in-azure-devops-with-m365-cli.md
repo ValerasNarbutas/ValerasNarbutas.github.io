@@ -392,16 +392,16 @@ This task is used to login to SPO using M365 CLI.
         arguments: ' -certificateFile "$(mycert.secureFilePath)" -password "$(CertificatePassword)" -appId "$(AppId)" -TenantId "$(TenantId)" -SiteUrl "$(SiteCollection)"'
 ```
 
-  ### SPFx package add, deploy and install
+### SPFx package add, deploy and install
 
-  This task is used to add, deploy and install SPFx package to SPO site.
+This task is used to add, deploy and install SPFx package to SPO site.
   
-  ![](/img/posts/reDeploy.PNG)
+![](/img/posts/reDeploy.PNG)
 
   > Note: Errors in yaml are show as it cannot see variable required in script function, but should work if powershell files are copied in previous step.
   {: .prompt-info }
 
-  ```yaml
+```yaml
     #Your build pipeline references an undefined variable named ‘ProjectFolder’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab. See https://go.microsoft.com/fwlink/?linkid=865972
     #Your build pipeline references an undefined variable named ‘ProjectFolder’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab. See https://go.microsoft.com/fwlink/?linkid=865972
     #Your build pipeline references an undefined variable named ‘SolutionPackageLocation’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab. See https://go.microsoft.com/fwlink/?linkid=865972
@@ -415,11 +415,11 @@ This task is used to login to SPO using M365 CLI.
         targetType: filePath
         filePath: './$(System.DefaultWorkingDirectory)/$(ProjectFolder)/drop/spo-app-add.ps1'
         arguments: ' -PackageFolder "$(System.DefaultWorkingDirectory)/$(ProjectFolder)/drop/$(SolutionPackageLocation)" -packageName "$(PackageName)" -URL "$(SiteCollection)"'
-  ```
+```
 
 ## Project Folder Structure and scripts used in pipeline
 
-  [https://github.com/ValerasNarbutas/PDPApp](https://github.com/ValerasNarbutas/PDPApp)
+[https://github.com/ValerasNarbutas/PDPApp](https://github.com/ValerasNarbutas/PDPApp)
 
 View in devops
 
