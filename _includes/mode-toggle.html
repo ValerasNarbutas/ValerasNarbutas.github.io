@@ -1,7 +1,6 @@
 <!--
   Switch the mode between dark and light.
 -->
-
 <script type="text/javascript">
 class ModeToggle {
   static MODE_KEY = "mode";
@@ -22,7 +21,7 @@ class ModeToggle {
   }
 
   get sysDarkPrefers() {
-    return window.matchMedia("(prefers-color-scheme: dark)");
+    return window.matchMedia("(prefers-color-scheme: light)");
   }
 
   get isSysDarkPrefer() {
