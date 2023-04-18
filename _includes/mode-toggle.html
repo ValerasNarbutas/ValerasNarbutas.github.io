@@ -3,129 +3,117 @@
 -->
 
 <script type="text/javascript">
-  class ModeToggle {
-    static get MODE_KEY() { return "mode"; }
-    static get MODE_ATTR() { return "data-mode"; }
-    static get DARK_MODE() { return "dark"; }
-    static get LIGHT_MODE() { return "light"; }
-    static get ID() { return "mode-toggle"; }
+class ModeToggle {
+  static MODE_KEY = "mode";
+  static MODE_ATTR = "data-mode";
+  static DARK_MODE = "dark";
+  static LIGHT_MODE = "light";
+  static ID = "mode-toggle";
 
-    constructor() {
+  constructor() {
+    this.updateMode();
+    this.sysDarkPrefers.addEventListener("change", () => {
       if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
+        this.updateMode();
+        this.clearMode();
       }
+      this.notify();
+    });
+  }
 
-      let self = this;
+  get sysDarkPrefers() {
+    return window.matchMedia("(prefers-color-scheme: dark)");
+  }
 
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addEventListener("change", () => {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
+  get isSysDarkPrefer() {
+    return this.sysDarkPrefers.matches;
+  }
 
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
+  get isDarkMode() {
+    return this.mode === ModeToggle.DARK_MODE;
+  }
 
-          self.clearMode();
-        }
+  get isLightMode() {
+    return this.mode === ModeToggle.LIGHT_MODE;
+  }
 
-        self.notify();
+  get hasMode() {
+    return this.mode !== null;
+  }
 
-      });
+  get mode() {
+    return sessionStorage.getItem(ModeToggle.MODE_KEY);
+  }
 
-    } /* constructor() */
-
-    get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
-
-    get isSysDarkPrefer() { return this.sysDarkPrefers.matches; }
-
-    get isDarkMode() { return this.mode === ModeToggle.DARK_MODE; }
-
-    get isLightMode() { return this.mode === ModeToggle.LIGHT_MODE; }
-
-    get hasMode() { return this.mode != null; }
-
-    get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode
-        || (!this.hasMode && this.isSysDarkPrefer)) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    setDark() {
-      $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      $('html').removeAttr(ModeToggle.MODE_ATTR);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    /* Notify another plugins that the theme mode has changed */
-    notify() {
-      window.postMessage({
-        direction: ModeToggle.ID,
-        message: this.modeStatus
-      }, "*");
-    }
-
-  } /* ModeToggle */
-
-  const toggle = new ModeToggle();
-
-  function flipMode() {
-    if (toggle.hasMode) {
-      if (toggle.isSysDarkPrefer) {
-        if (toggle.isLightMode) {
-          toggle.clearMode();
-        } else {
-          toggle.setLight();
-        }
-
-      } else {
-        if (toggle.isDarkMode) {
-          toggle.clearMode();
-        } else {
-          toggle.setDark();
-        }
-      }
-
+  get modeStatus() {
+    if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
+      return ModeToggle.DARK_MODE;
     } else {
-      if (toggle.isSysDarkPrefer) {
+      return ModeToggle.LIGHT_MODE;
+    }
+  }
+
+  setDark() {
+    this.setMode(ModeToggle.DARK_MODE);
+  }
+
+  setLight() {
+    this.setMode(ModeToggle.LIGHT_MODE);
+  }
+
+  setMode(mode) {
+    document.documentElement.setAttribute(ModeToggle.MODE_ATTR, mode);
+    sessionStorage.setItem(ModeToggle.MODE_KEY, mode);
+  }
+
+  clearMode() {
+    document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
+    sessionStorage.removeItem(ModeToggle.MODE_KEY);
+  }
+
+  notify() {
+    window.postMessage({
+      direction: ModeToggle.ID,
+      message: this.modeStatus,
+    }, "*");
+  }
+
+  updateMode() {
+    if (this.hasMode) {
+      if (this.isDarkMode && !this.isSysDarkPrefer) {
+        this.setDark();
+      } else if (this.isLightMode && this.isSysDarkPrefer) {
+        this.setLight();
+      }
+    }
+  }
+}
+
+const toggle = new ModeToggle();
+
+function flipMode() {
+  if (toggle.hasMode) {
+    if (toggle.isSysDarkPrefer) {
+      if (toggle.isLightMode) {
+        toggle.clearMode();
+      } else {
         toggle.setLight();
+      }
+    } else {
+      if (toggle.isDarkMode) {
+        toggle.clearMode();
       } else {
         toggle.setDark();
       }
     }
-
-    toggle.notify();
-
-  } /* flipMode() */
-
-
-
+  } else {
+    if (toggle.isSysDarkPrefer) {
+      toggle.setLight();
+    } else {
+      toggle.setDark();
+    }
+  }
+  toggle.notify();
+}
+flipMode();
 </script>
