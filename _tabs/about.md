@@ -34,6 +34,8 @@ Most of my code samples are available on [Microsoft 365 & Power Platform Communi
 
 ## Badges by Credly
 
+[![Microsoft Identity platform - Workshop Participant 2023](https://images.credly.com/size/110x110/images/ed1623fe-2402-40c6-8de5-e5d2f7849da6/image.png)](http://www.credly.com/badges/282546a8-cc3d-4662-9903-276964533f56 "Microsoft Identity platform - Workshop Participant 2023")
+
 [![Community Contributor 2023](https://images.credly.com/size/110x110/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](http://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa "Community Contributor 2023")
 [![Script Samples - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/332f4ec3-246d-4aed-b211-4a3b3b100bb6/image.png)](http://www.credly.com/badges/d281ecd7-b093-464c-85af-c254eeb498e3 "Script Samples - Microsoft 365 & Power Platform Community 2023")
 [![Community Contributor 2021](https://images.credly.com/size/110x110/images/77e80202-83a5-4519-ac58-aba7f4351df6/Community_Contributor_Badge.png)](http://www.credly.com/badges/0f7d4c49-cc34-4bd7-bee5-b64006f73d49 "Community Contributor 2021")
