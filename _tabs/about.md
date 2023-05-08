@@ -31,9 +31,11 @@ Most of my code samples are available on [Microsoft 365 & Power Platform Communi
 
 📄 My Online resume is [https://valerasnarbutas.github.io/cv/](https://valerasnarbutas.github.io/cv/)
 
-
 ## Badges by Credly
 
+[![Blog Author - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/6e5e609e-50f7-4638-ac95-c89e51929f22/image.png)](http://www.credly.com/badges/0fc6726e-679e-432e-9592-ca5845760304 "Blog Author - Microsoft 365 & Power Platform Community 2023")
+[![Power Platform Samples - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/e4425872-9e18-47d9-b03c-ae3db1d34a85/image.png)](http://www.credly.com/badges/0636d730-3098-4aea-928a-59e97e9fd170 "Power Platform Samples - Microsoft 365 & Power Platform Community 2023")
+[![SPFx Web Part Samples - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/17ab4e53-20da-4677-89dc-aaca6cb29a8b/image.png)](http://www.credly.com/badges/3697a2f0-6351-442a-a21a-ebea2355b5e2 "SPFx Web Part Samples - Microsoft 365 & Power Platform Community 2023")
 [![Microsoft Identity platform - Workshop Participant 2023](https://images.credly.com/size/110x110/images/ed1623fe-2402-40c6-8de5-e5d2f7849da6/image.png)](http://www.credly.com/badges/282546a8-cc3d-4662-9903-276964533f56 "Microsoft Identity platform - Workshop Participant 2023")
 
 [![Community Contributor 2023](https://images.credly.com/size/110x110/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](http://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa "Community Contributor 2023")
@@ -41,6 +43,5 @@ Most of my code samples are available on [Microsoft 365 & Power Platform Communi
 [![Community Contributor 2021](https://images.credly.com/size/110x110/images/77e80202-83a5-4519-ac58-aba7f4351df6/Community_Contributor_Badge.png)](http://www.credly.com/badges/0f7d4c49-cc34-4bd7-bee5-b64006f73d49 "Community Contributor 2021")
 [![Exam 410: Installing and Configuring Windows Server 2012](https://images.credly.com/size/110x110/images/f1c8b841-d2af-46d0-a7af-f40f7b443c79/Installing_and_Configuring_Windows_Server_2012-01.png)](http://www.credly.com/badges/fa60bc32-64f8-4e28-b9e1-9cb5b4b1d2d3 "Exam 410: Installing and Configuring Windows Server 2012")
 [![Microsoft 365 Certified: Teams Application Developer Associate](https://images.credly.com/size/110x110/images/ef2853b2-4faf-4d27-8dec-5ddd71aa82bc/CERT-Associate-Microsoft365-Developer.png)](http://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882 "Microsoft 365 Certified: Teams Application Developer Associate")
-
 
 <!-- My expertise in Microsoft technologies, combined with my passion for mentoring and contributing to the community, make me a valuable asset to any organization looking to enhance its modern workplace capabilities. -->
