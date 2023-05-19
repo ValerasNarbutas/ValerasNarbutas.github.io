@@ -23,8 +23,8 @@ In this article, I will show you how to display your Microsoft To Do or Calendar
 
 ## Setup
 
-1.  Create git repository. I have named mine "MyAgenda" https://github.com/ValerasNarbutas/MyAgenda
- and add index.html file with following content
+1.  Create git repository. I have named mine "**MyAgenda**" https://github.com/ValerasNarbutas/MyAgenda
+ and add **index.html** file with following content
 
 ```html
 <!DOCTYPE html>
@@ -72,6 +72,7 @@ In this article, I will show you how to display your Microsoft To Do or Calendar
 </body>
 </html>
 ```
+
 2. Add main.css file with following content
 
 ```css
@@ -148,7 +149,7 @@ mgt-login {
   - Go to repo Settings
   - Scroll down to GitHub Pages section
   - Select master branch and click Save
-  - You should be able to access your page via link like this: https://valerasnarbutas.github.io/MyAgenda/ were "valerasnarbutas" is your username and "MyAgenda" is your repo name
+  - You should be able to access your page via link like this: **https://valerasnarbutas.github.io/MyAgenda/** were "**valerasnarbutas**" is your username and "**MyAgenda**" is your repo name
 
   ![](/img/posts/GitPages.PNG)
 
@@ -165,7 +166,7 @@ mgt-login {
 
 ![](/img/posts/myagendaapp.PNG)
 
-5. With your app client ID go back to your GitPages site and replace <AAD APP ClientID> with your app client ID in index.html file
+5. With your app client ID go back to your GitPages site and replace **<AAD APP ClientID>** with your app client ID in **index.html** file
 
 6. Go to your git page and login with your Microsoft account, you should be able to see your calendar and to do list
 
