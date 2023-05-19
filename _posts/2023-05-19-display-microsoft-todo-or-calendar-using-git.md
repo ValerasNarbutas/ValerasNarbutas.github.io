@@ -22,12 +22,7 @@ image:
 In this article, I will show you how to display your Microsoft To Do or Calendar using Git and Microsoft graph toolkit. This is a great way to share your tasks or calendar with your family or friends. You can also use it to display your tasks or calendar on your website.
 
 ## Setup
-
-1.  sss
-2.  sss
-3.  sss
-
-### 1. Create git repository. I have named mine "**MyAgenda**" https://github.com/ValerasNarbutas/MyAgenda
+1. ### 1. Create git repository. I have named mine "**MyAgenda**" https://github.com/ValerasNarbutas/MyAgenda
  and add **index.html** file with following content
 
 ```html
@@ -44,7 +39,7 @@ In this article, I will show you how to display your Microsoft To Do or Calendar
 <body>
     <script src="https://unpkg.com/@microsoft/mgt@2.6.0/dist/bundle/mgt-loader.js"></script>
     <mgt-msal2-provider
-        client-id="<AAD APP ClientID>"
+        client-id="[AAD APP ClientID]"
         scopes="User.Read,
             User.ReadBasic.All,
             Calendars.Read,
@@ -170,8 +165,9 @@ mgt-login {
 
 ![](/img/posts/myagendaapp.PNG)
 
-### 5. With your app client ID go back to your GitPages site and replace **<AAD APP ClientID>** with your app client ID in **index.html** file
+### 5. With your app client ID go back to your GitPages site and replace "[AAD APP ClientID]" with your app client ID in **index.html** file
 
+![](/img/posts/replaceID.PNG)
 
 ### 6. Go to your git page and login with your Microsoft account, you should be able to see your calendar and to do list
 
