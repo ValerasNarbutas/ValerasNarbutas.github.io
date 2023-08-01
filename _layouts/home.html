@@ -43,7 +43,7 @@ layout: page
     <div class="card post-preview">
       <a class="link-preview" href="{{ post.url | relative_url }}" style="display: flex;">
         {% if post.image.path %}
-          <div class="image-preview">
+          <div class="image-preview" style="max-width: 250px;">
             <img class="card-img-top" src="/assets{{ post.image.path | default: '/img/posts/dummy_350x350_ffffff_cccccc.png' | relative_url }}" alt="{{ post.image.alt | default: 'Preview Image' }}">
           </div>
         {% endif %}
