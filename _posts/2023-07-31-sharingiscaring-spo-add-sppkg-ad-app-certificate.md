@@ -14,7 +14,7 @@ pin: false
 slug: sharingiscaring-spo-add-sppkg-ad-app-certificate
 comments: true
 image:
-  path: /img/posts/UploadspfxsolutiontoappcataloanAzureADAppCertificate.png
+  path: /img/posts/Upload_spfx_solution_to_app_catalog_and_AzureADAppCertificate.png
   alt: Upload spfx solution to app catalog and Azure AD App Certificate
 ---
 
@@ -26,7 +26,7 @@ This sample demonstrates how to upload spfx solution to app catalog using CLI fo
 
 - CLI for Microsoft [https://aka.ms/cli-m365](https://aka.ms/cli-m365)
 
-  ![Example](/img/posts/UploadspfxsolutiontoappcataloanAzureADAppCertificate.png)
+  ![Example](/img/posts/sample_console_spfx_added_toConsole.png)
 
 ```powershell
 #create self signed certificate
