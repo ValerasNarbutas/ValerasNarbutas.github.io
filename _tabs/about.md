@@ -14,11 +14,11 @@ I do believe in giving back to the community and offer mentoring and support to 
 
 ## About me
 
-As an experienced Microsoft Modern Workplace Developer, I bring over 14 years of experience in web development, SharePoint (almost all versions), Microsoft teams, power platform. I hold several certification badges, including 
+As an experienced Microsoft Modern Workplace Developer, I bring over 16 years of experience in web development, SharePoint (almost all versions), Microsoft teams, power platform. I hold several certification badges, including 
 
-[Microsoft 365 Certified: Teams Application Developer Associate](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url)
+[![Community Contributor 2023](https://images.credly.com/size/150x150/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa/public_url "Community Contributor 2023")
 
-[![Community Contributor 2023](https://images.credly.com/size/150x150/images/ef2853b2-4faf-4d27-8dec-5ddd71aa82bc/CERT-Associate-Microsoft365-Developer.png)](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url "Microsoft 365 Certified: Teams Application Developer Associate")
+[![Microsoft 365 Certified: Teams Application Developer Associate](https://images.credly.com/size/150x150/images/dca1c5d6-b309-4948-b34c-6950998f524b/image.png)](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url "Microsoft 365 Certified: Teams Application Developer Associate")
 
 In addition to my technical expertise, I am also passionate about mentoring others in the tech industry. I am an active member of [WomenGoTech](https://womengotech.com/), where I mentor women who are starting their careers in technology.
 
