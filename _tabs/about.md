@@ -33,6 +33,8 @@ Most of my code samples are available on [Microsoft 365 & Power Platform Communi
 
 ## Badges by Credly
 
+[![PSL Latte-Commits Contributor 2023 - Microsoft 365 & Power Platform Community](https://images.credly.com/size/110x110/images/71e69c0c-f445-43a2-9c0d-644a9d443dc5/image.png)](https://www.credly.com/badges/6785896a-555d-4eb0-bd6e-9d69b6a7ca6b/public_url "PSL Latte-Commits Contributor 2023 - Microsoft 365 & Power Platform Community")
+[![Season of Gitting 2023 - Microsoft 365 & Power Platform Community](https://images.credly.com/size/110x110/images/5b5c6cd6-8e09-4325-9935-f6116b312259/image.png)](https://www.credly.com/badges/3e630faa-697e-4941-9076-88b73c792e52/public_url "Season of Gitting 2023 - Microsoft 365 & Power Platform Community")
 [![CLI for Microsoft 365 - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/7d63f7e7-a6be-4530-bf81-7155bf8f931c/image.png)](https://www.credly.com/badges/4cc4acaa-acbb-4731-9ccc-d91d35e6da38/public_url "CLI for Microsoft 365 - Microsoft 365 & Power Platform Community 2023")
 [![Script Samples - Expert - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/e6ab21dd-b265-40b2-9409-1e8f1621e9b2/image.png)](https://www.credly.com/badges/70d035fa-38de-4c7e-89ae-9d555e191a40/public_url "Script Samples - Expert - Microsoft 365 & Power Platform Community 2023")
 [![Community Call Presenter - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/7e37af78-b381-4cf6-9aa9-762416a5b8f3/image.png)](https://www.credly.com/badges/5cfcb30f-7ac4-4af5-aa84-ea7caadf1f8d/public_url "Community Call Presenter - Microsoft 365 & Power Platform Community 2023")
