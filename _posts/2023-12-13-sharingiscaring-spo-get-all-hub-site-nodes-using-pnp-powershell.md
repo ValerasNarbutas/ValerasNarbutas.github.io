@@ -12,7 +12,7 @@ pin: false
 slug: sharingiscaring-spo-get-all-hub-site-nodes-using-pnp-powershell
 comments: true
 image:
-  path: /img/posts/navigationtree.png
+  path: /img/posts/navigationtree.PNG
   alt: Get All hub site and its main sites navigation nodes and update the navigation nodes if needed
 ---
 
