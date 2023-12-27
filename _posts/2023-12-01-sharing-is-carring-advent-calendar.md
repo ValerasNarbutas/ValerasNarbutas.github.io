@@ -1,5 +1,5 @@
 ---
-title: SharingIsCaring. Advent Calendar - A Fun Christmas-Themed SPFx Web Part for Your SharePoint Site
+title: SharingIsCaring. Advent Calendar - A Fun Christmas-Themed SPFx
 author: valeras
 date: 2023-12-01 00:05:00 +0800
 categories:
@@ -12,7 +12,7 @@ pin: false
 slug: sharingiscaring-advent-calendar-spfx-christmas
 comments: true
 image:
-  path: /img/posts/adventCalendar.gif
+  path: /img/posts/adventcalendar.png
   alt: SharingIsCaring. Advent Calendar - A Fun Christmas-Themed SPFx Web Part for Your SharePoint Site
 ---
 
