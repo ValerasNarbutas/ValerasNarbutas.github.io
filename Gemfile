@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 gem 'google-protobuf', '~> 3.25', '>= 3.25.1'
-gem install google-protobuf
-gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
+
+# gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
 
 group :test do
   gem "html-proofer", "~> 4.4"
