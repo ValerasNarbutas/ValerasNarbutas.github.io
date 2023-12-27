@@ -7,7 +7,7 @@ categories:
   - SPFX Samples
 tags:
   - SharingIsCaring
-  - SPFX
+  - SPFX samples
 pin: false
 slug: sharingiscaring-advent-calendar-spfx-christmas
 comments: true
