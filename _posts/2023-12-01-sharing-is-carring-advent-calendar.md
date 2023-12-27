@@ -9,7 +9,7 @@ tags:
   - SharingIsCaring
   - SPFX samples
 pin: false
-slug: sharingiscaring-advent-calendar-spfx-christmas
+slug: sharing-is-carring-advent-calendar
 comments: true
 image:
   path: /img/posts/adventcalendar.png
