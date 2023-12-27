@@ -13,7 +13,7 @@ slug: sharing-is-carring-advent-calendar
 comments: true
 image:
   path: /img/posts/adventcalendar.png
-  alt: SharingIsCaring. Advent Calendar - A Fun Christmas-Themed SPFx Web Part for Your SharePoint Site
+  alt: SharingIsCaring. Advent Calendar
 ---
 
 ## Summary
