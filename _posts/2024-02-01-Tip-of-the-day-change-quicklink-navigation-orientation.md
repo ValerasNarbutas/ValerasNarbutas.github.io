@@ -13,7 +13,7 @@ pin: false
 slug: tip-of-the-day-change-quicklink-navigation-orientation
 comments: true
 image:
-  path: /img/posts/navigationOrientation.PNG
+  path: /img/posts/navigationOrientationHead.PNG
   alt: Tip of the day change quicklink navigation orientation
 draft: false
 ---
@@ -25,6 +25,8 @@ draft: false
 In SharePoint Online, you can change the orientation of the quick launch navigation from vertical to horizontal and vice versa. While using M365 CLI is easy to change the orientation of the quick launch navigation, it is not possible to do the same using PnP PowerShell using the [Set-PnPWeb](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) cmdlet.
 
 In this blog post, we will demonstrate how to change the orientation of the quick launch navigation using PnP PowerShell without Set-PnPNavigationNode
+ 
+    ![Example](/img/posts/navigationOrientation.PNG)
 
 ### Option 1: Change the orientation of the quick launch navigation using M365 CLI
 
@@ -56,6 +58,6 @@ As off today, it is not possible to change the orientation of the quick launch n
 Both pnpPowerShell and M365 CLI are great tools to manage your SharePoint Online sites. However, there are some features that are not available in one tool but available in the other. ALso they are both constantly evolving and new features are added all the time. So it is important to keep up to date with the latest features and use the right tool for the job.
 
 ## References
-[SharePoint Patterns and Practices (PnP) PowerShell](https://pnp.github.io/powershell/index.html)
- 
-[Microsoft 365 CLI](https://pnp.github.io/cli-microsoft365/)
+- PnP PowerShell to learn more at: [https://aka.ms/pnp/powershell](https://aka.ms/pnp/powershell)
+- M365 CLI to learn more at: [https://aka.ms/cli-m365](https://aka.ms/cli-m365)
+
