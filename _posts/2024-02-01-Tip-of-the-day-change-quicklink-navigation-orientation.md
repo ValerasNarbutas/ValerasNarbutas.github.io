@@ -26,7 +26,7 @@ In SharePoint Online, you can change the orientation of the quick launch navigat
 
 In this blog post, we will demonstrate how to change the orientation of the quick launch navigation using PnP PowerShell without Set-PnPNavigationNode
  
-    ![Example](/img/posts/navigationOrientation.PNG)
+![Example](/img/posts/navigationOrientation.PNG)
 
 ### Option 1: Change the orientation of the quick launch navigation using M365 CLI
 
