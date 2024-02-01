@@ -1,7 +1,7 @@
 ---
 title: Tip of the day change quicklink navigation orientation
 author: valeras
-date: 2023-03-20 10:55:00 +0800
+date: 2024-02-01 10:55:00 +0800
 categories:
   - TipOfTheDay
   - SharingIsCaring
