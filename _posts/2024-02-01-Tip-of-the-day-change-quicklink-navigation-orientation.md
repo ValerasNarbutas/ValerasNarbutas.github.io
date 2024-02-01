@@ -6,6 +6,8 @@ categories:
   - TipOfTheDay
   - SharingIsCaring
 tags:
+  - TipOfTheDay
+  - SharingIsCaring
   - pnpPowershell
   - M365 CLI
   - Sharepoint
