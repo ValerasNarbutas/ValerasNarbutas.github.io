@@ -56,5 +56,6 @@ As off today, it is not possible to change the orientation of the quick launch n
 Both pnpPowerShell and M365 CLI are great tools to manage your SharePoint Online sites. However, there are some features that are not available in one tool but available in the other. ALso they are both constantly evolving and new features are added all the time. So it is important to keep up to date with the latest features and use the right tool for the job.
 
 ## References
-[SharePoint Patterns and Practices (PnP) PowerShell](https://pnp.github.io/powershell/index.html) 
+[SharePoint Patterns and Practices (PnP) PowerShell](https://pnp.github.io/powershell/index.html)
+ 
 [Microsoft 365 CLI](https://pnp.github.io/cli-microsoft365/)
