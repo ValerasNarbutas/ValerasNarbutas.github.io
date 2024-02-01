@@ -14,7 +14,7 @@ slug: tip-of-the-day-change-quicklink-navigation-orientation
 comments: true
 image:
   path: /img/posts/navigationOrientation.PNG
-  alt: Eeater Egg JavaScript Script
+  alt: Tip of the day change quicklink navigation orientation
 draft: false
 ---
 
