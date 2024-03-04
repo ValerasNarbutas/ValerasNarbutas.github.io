@@ -95,7 +95,7 @@ RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 ```
 
 ### Infinite Loop of notepad opening and closing:
-```powershell
+```bash
 while ($true) {
     Start-Process notepad
     Start-Sleep -Seconds 10
