@@ -18,7 +18,7 @@ image:
   alt: Tip of the day - Powershell for April first 2
 ---
 
-## Tip of the day: Aprils Fools' Day pranks with Powershell Part 2
+## Tip of the day: Aprils Fools Day pranks with Powershell Part 2
 
 Apply these pranks to your colleagues' computers. They will be surprised and will have a good laugh.
 
@@ -87,15 +87,14 @@ Start-Process explorer
 
 ### Change Desktop Background to a Funny Image:
 
-```powerShell
+```bash
 # Ensure the path to the image is correct and accessible
 Set-ItemProperty -Path 'HKCU:\Control Panel\Desktop' -Name Wallpaper -Value 'C:\path\to\funny-image.jpg'
 RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
-
 ```
 
 ### Infinite Loop of notepad opening and closing:
-```bash
+```powershell
 while ($true) {
     Start-Process notepad
     Start-Sleep -Seconds 10
