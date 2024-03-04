@@ -1,5 +1,5 @@
 ---
-title: Tip of the day - Powershell for April first. Tricks and pranks
+title: Tip of the day - Powershell for April first. Tricks and pranks part 1
 author: valeras
 date: 2023-04-01 10:55:00 +0800
 categories:
@@ -18,7 +18,7 @@ image:
   alt: Tip of the day - Powershell for April first
 ---
 
-## Tip of the day: Aprils Fools' Day pranks with Powershell
+## Tip of the day: Aprils Fools' Day pranks with Powershell Part 1
 
 Apply these pranks to your colleagues' computers. They will be surprised and will have a good laugh.
 
