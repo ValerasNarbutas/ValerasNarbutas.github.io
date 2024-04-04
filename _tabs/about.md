@@ -14,11 +14,15 @@ I do believe in giving back to the community and offer mentoring and support to 
 
 ## About me
 
-As an experienced Microsoft Modern Workplace Developer, I bring over 16 years of experience in web development, SharePoint (almost all versions), Microsoft teams, power platform. I hold several certification badges, including 
+As an experienced Microsoft Modern Workplace Developer, Microsoft MVP for M365 technology area.
+ I bring over 18 years of experience in web development, SharePoint (almost all versions), Microsoft teams, power platform. I hold several certification badges, including 
 
-[![Community Contributor 2023](https://images.credly.com/size/150x150/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa/public_url "Community Contributor 2023")
+ ![alt text](https://valerasnarbutas.github.io/assets/img/cert/MVP_Badge_Horizontal_Preferred_Blue3005_RGB.png)
 
-[![Microsoft 365 Certified: Teams Application Developer Associate](https://images.credly.com/size/150x150/images/dca1c5d6-b309-4948-b34c-6950998f524b/image.png)](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url "Microsoft 365 Certified: Teams Application Developer Associate")
+[![Community Contributor 2024](https://images.credly.com/size/340x340/images/9ff26055-ff49-44cf-818c-515bc01a3f3d/image.png)](https://www.credly.com/badges/2245ac7a-86f2-4fce-9a73-0bcfa8349a5b/public_url "Community Contributor 2024")
+[![Community Contributor 2023](https://images.credly.com/size/340x340/images/166c85a3-1649-4fe6-bdab-daf203cb064a/image.png)](https://www.credly.com/badges/af20c610-89dd-4dcc-9067-e6912614dbaa/public_url "Community Contributor 2023")
+
+[![Microsoft 365 Certified: Teams Application Developer Associate](https://images.credly.com/size/340x340/images/dca1c5d6-b309-4948-b34c-6950998f524b/image.png)](https://www.credly.com/badges/d3d3dd09-0f6f-4fc2-ac9e-ba0918b61882/public_url "Microsoft 365 Certified: Teams Application Developer Associate")
 
 In addition to my technical expertise, I am also passionate about mentoring others in the tech industry. I am an active member of [WomenGoTech](https://womengotech.com/), where I mentor women who are starting their careers in technology.
 
@@ -33,6 +37,7 @@ Most of my code samples are available on [Microsoft 365 & Power Platform Communi
 
 ## Badges by Credly
 
+[![Community Contributor 2024](https://images.credly.com/size/110x110/images/9ff26055-ff49-44cf-818c-515bc01a3f3d/image.png)](https://www.credly.com/badges/2245ac7a-86f2-4fce-9a73-0bcfa8349a5b/public_url "Community Contributor 2024")
 [![PSL Latte-Commits Contributor 2023 - Microsoft 365 & Power Platform Community](https://images.credly.com/size/110x110/images/71e69c0c-f445-43a2-9c0d-644a9d443dc5/image.png)](https://www.credly.com/badges/6785896a-555d-4eb0-bd6e-9d69b6a7ca6b/public_url "PSL Latte-Commits Contributor 2023 - Microsoft 365 & Power Platform Community")
 [![Season of Gitting 2023 - Microsoft 365 & Power Platform Community](https://images.credly.com/size/110x110/images/5b5c6cd6-8e09-4325-9935-f6116b312259/image.png)](https://www.credly.com/badges/3e630faa-697e-4941-9076-88b73c792e52/public_url "Season of Gitting 2023 - Microsoft 365 & Power Platform Community")
 [![CLI for Microsoft 365 - Microsoft 365 & Power Platform Community 2023](https://images.credly.com/size/110x110/images/7d63f7e7-a6be-4530-bf81-7155bf8f931c/image.png)](https://www.credly.com/badges/4cc4acaa-acbb-4731-9ccc-d91d35e6da38/public_url "CLI for Microsoft 365 - Microsoft 365 & Power Platform Community 2023")
