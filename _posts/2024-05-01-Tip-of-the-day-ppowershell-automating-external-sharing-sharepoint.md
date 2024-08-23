@@ -6,9 +6,11 @@ categories:
   - TipOfTheDay
   - TipsAndTricks
 tags:
-  - powershell
+  - PnP PowerShell
+  - M365 CLI
   - tipoftheday
   - sharepoint
+  - SharingIsCaring
 pin: false
 slug: tip-day-powershell-external-sharing
 comments: true
