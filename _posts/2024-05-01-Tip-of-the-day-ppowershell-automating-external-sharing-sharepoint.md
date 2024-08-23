@@ -21,6 +21,7 @@ image:
 
 Goal: Help admins generate reports on external sharing settings for all SharePoint Online sites in their tenant.
 
+### Using PnP PowerShell
 ```powershell
 # Connect to SharePoint Online
 Connect-PnPOnline -Url https://yoursite-admin.sharepoint.com -Interactive
@@ -49,15 +50,50 @@ foreach ($site in $sites) {
 }
 ```
 
-This script will generate a report with the following columns:
+### Using Microsoft 365 CLI
 
-- Title
-- Url
-- SharingCapability
-- SharingAllowedDomainList
-- SharingBlockedDomainList
-- SharingDomainRestrictionMode
-- SiteDefinedSharingCapability
-- DisableSharingForNonOwners
+```bash
+m365 login
+# Fetch all site data in JSON format from the CLI
+$sitesJson = m365 spo site list --output json
 
-You can export the report to a CSV file for further analysis or sharing.
+# Convert the JSON string to a PowerShell object
+$sites = $sitesJson | ConvertFrom-Json
+
+# Prepare the report as a PowerShell object with selected properties
+$report = @()
+
+foreach ($site in $sites) {
+    $reportObject = [PSCustomObject]@{
+        Title                        = $site.title
+        Url                          = $site.url
+        SharingCapability            = $site.sharingCapability
+        SharingAllowedDomainList     = ($site.sharingAllowedDomainList -join ", ") 
+        SharingBlockedDomainList     = ($site.sharingBlockedDomainList -join ", ")
+        SharingDomainRestrictionMode = $site.sharingDomainRestrictionMode
+        SiteDefinedSharingCapability = $site.siteDefinedSharingCapability
+        DisableSharingForNonOwners   = $site.disableSharingForNonOwnersStatus
+    }
+
+    # Add the report object to the list
+    $report += $reportObject
+}
+
+# Output the report as a table in PowerShell
+$report | Format-Table -AutoSize
+
+# Optionally, export the report to a CSV file
+$report | Export-Csv -Path "C:\Reports\SharePointSharingReport.csv" -NoTypeInformation
+
+```
+
+### Properties in the Report:
+
+- **Title:** The name of the site.
+- **Url:** The site's URL.
+- **SharingCapability:** The overall sharing capability (e.g., `ExternalUserSharingOnly`, `ExistingExternalUserSharingOnly`).
+- **SharingAllowedDomainList:** A list of allowed external domains for sharing.
+- **SharingBlockedDomainList:** A list of blocked external domains.
+- **SharingDomainRestrictionMode:** Specifies the sharing domain restriction mode (`None`, `AllowList`, `BlockList`).
+- **SiteDefinedSharingCapability:** Sharing capability defined at the site level.
+- **DisableSharingForNonOwnersStatus:** Indicates whether sharing is disabled for non-owners.
