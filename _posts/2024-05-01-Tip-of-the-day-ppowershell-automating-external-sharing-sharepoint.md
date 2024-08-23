@@ -61,5 +61,3 @@ This script will generate a report with the following columns:
 - DisableSharingForNonOwners
 
 You can export the report to a CSV file for further analysis or sharing.
-
-```powershell
