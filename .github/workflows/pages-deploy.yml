@@ -61,6 +61,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site"
+          name: "github-pages"
 
   deploy:
     environment:
@@ -69,6 +70,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: List available artifacts
+        run: |
+          echo "Checking available artifacts..."
+          ls -R /home/runner/work/_temp  # Debugging step
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
