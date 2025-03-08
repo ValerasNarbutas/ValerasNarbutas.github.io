@@ -15,7 +15,7 @@ pin: false
 slug: get-authentification-token-azurefunction
 comments: true
 image: 
-  path: /img/posts/authFunction.png
+  path: /img/posts/authfunction.png
   alt: Get an authentication token in Azure Function
 
 ---
