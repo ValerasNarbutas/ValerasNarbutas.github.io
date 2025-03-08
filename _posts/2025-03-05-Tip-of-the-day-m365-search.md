@@ -77,19 +77,19 @@ Display as table
 
 ### **SharePoint & OneDrive Search Operators**
 
-```markdown
+
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **title:** | Searches for files with a specific title | `title:Quarterly Report` |
 | **path:** | Filters results by folder path | `path:/Shared Documents/2025` |
 | **author:** | Finds documents created by someone | `author:"John Doe"` |
 | **editor:** | Finds documents last edited by someone | `editor:"Jane Smith"` |
-```
+
 
 
 ### **Teams Search Operators**
 
-```markdown
+
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **team:** | Searches inside a specific team | `team:"Project Alpha"` |
@@ -97,7 +97,7 @@ Display as table
 | **about:** | Filters messages related to a topic | `about:"budget update"` |
 | **mentions:** | Finds messages where someone is mentioned | `mentions:@JohnDoe` |
 
-```
+
 
 These search operators **save time** and make it much easier to **find files, emails, and messages** without manually browsing through folders. 
 
