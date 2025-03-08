@@ -53,7 +53,14 @@ team:"Project Alpha" about:"budget update"
 
 Here’s a **list of useful Microsoft 365 search operators** you can use in **Outlook, SharePoint, OneDrive, and Teams** to refine your searches:
 
+
+Display as table
+
+
+
 ### **General Search Operators**
+
+```markdown
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **filetype:** | Finds files of a specific type | `filetype:pdf` (Only PDF files) |
@@ -65,22 +72,32 @@ Here’s a **list of useful Microsoft 365 search operators** you can use in **Ou
 | **modified:** | Finds files modified on a date or within a range | `modified:2025-03-01..2025-03-07` |
 | **created:** | Finds files created on a specific date | `created:2025-03-01` |
 | **size:** | Searches for files of a certain size | `size:>10MB` |
+```
+
 
 ### **SharePoint & OneDrive Search Operators**
+
+```markdown
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **title:** | Searches for files with a specific title | `title:Quarterly Report` |
 | **path:** | Filters results by folder path | `path:/Shared Documents/2025` |
 | **author:** | Finds documents created by someone | `author:"John Doe"` |
 | **editor:** | Finds documents last edited by someone | `editor:"Jane Smith"` |
+```
+
 
 ### **Teams Search Operators**
+
+```markdown
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **team:** | Searches inside a specific team | `team:"Project Alpha"` |
 | **channel:** | Finds messages from a specific channel | `channel:"General"` |
 | **about:** | Filters messages related to a topic | `about:"budget update"` |
 | **mentions:** | Finds messages where someone is mentioned | `mentions:@JohnDoe` |
+
+```
 
 These search operators **save time** and make it much easier to **find files, emails, and messages** without manually browsing through folders. 
 
