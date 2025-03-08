@@ -60,7 +60,7 @@ Display as table
 
 ### **General Search Operators**
 
-```markdown
+
 | Operator | Usage | Example |
 |----------|-------|---------|
 | **filetype:** | Finds files of a specific type | `filetype:pdf` (Only PDF files) |
@@ -72,7 +72,7 @@ Display as table
 | **modified:** | Finds files modified on a date or within a range | `modified:2025-03-01..2025-03-07` |
 | **created:** | Finds files created on a specific date | `created:2025-03-01` |
 | **size:** | Searches for files of a certain size | `size:>10MB` |
-```
+
 
 
 ### **SharePoint & OneDrive Search Operators**
