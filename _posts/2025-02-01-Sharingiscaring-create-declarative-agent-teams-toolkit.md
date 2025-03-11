@@ -120,6 +120,10 @@ If you need help, just type "help" and I will provide you with a list of availab
 This is just a simple starter guide to get you started with creating a declarative agent using the Teams Toolkit. You can extend this further by adding more instructions, integrating with Microsoft Graph APIs, and adding more complex logic to your agent.
 I personally find this tool very useful and easy to use. I hope you find it useful too.
 
+## References
+
+[https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/install-teams-toolkit?tabs=vscode#install-teams-toolkit-for-visual-studio-code](https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/install-teams-toolkit?tabs=vscode#install-teams-toolkit-for-visual-studio-code)
+
 
 
 
