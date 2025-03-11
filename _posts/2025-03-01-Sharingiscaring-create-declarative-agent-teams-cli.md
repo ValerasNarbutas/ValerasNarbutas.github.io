@@ -8,6 +8,7 @@ categories:
 tags:
   - SharingIsCaring
   - Teams CLI
+  - M365 Copilot
   - AI
   - Contributing
   - OpenSource
