@@ -26,29 +26,27 @@ Goal: Show SharePoint Agent .agent files in JSON Format
 
 ### Using VS Code
 
-1. Associate the .agent extension with JSON
-Open VS Code.
-
-Press `Ctrl + Shift + P` (or `Cmd + Shift + P on macOS`) to open the Command Palette.
-
-Type "`Preferences: Open Settings (JSON)`" and select it.
-
-Add the following entry inside the settings JSON:
+#### Associate the .agent extension with JSON
+1.  Open VS Code.
+2.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P on macOS`) to open the Command Palette.
+3.  Type "`Preferences: Open Settings (JSON)`" and select it.
+4.  Add the following entry inside the settings JSON:
 
 ```json
 "files.associations": {
     "*.agent": "json"
 }
 ```
-2. Enable JSON Formatting
+#### Enable JSON Formatting
+
 Once VS Code recognizes .agent files as JSON:
 
-Open the .agent file.
-Press `Shift + Alt + F` (or `Cmd + Shift + F on macOS`)` to format the document.
-You can also right-click inside the editor and select Format Document.
+1.  Open the .agent file.
+2.  Press `Shift + Alt + F` (or `Cmd + Shift + F on macOS`)` to format the document.
+3.  You can also right-click inside the editor and select Format Document.
 
-3. Install a JSON Formatter (If Needed)
+#### Install a JSON Formatter (If Needed)
+
 If formatting doesn't work, install an extension like:
-
-Prettier - Code formatter (recommended)
+`Prettier - Code formatter (recommended)`
 
