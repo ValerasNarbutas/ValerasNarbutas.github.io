@@ -103,4 +103,7 @@ while ($true) {
 }
 ```
 
-If you missed the first part of the pranks, you can find them here > [Tip of the day - Powershell for April first. Tricks and pranks](https://valerasnarbutas.github.io/posts/tip-day-powershell-april/).
+If you missed the first and third part of the pranks, you can find them here > 
+> [Tip of the day - Powershell for April first. Tricks and pranks](https://valerasnarbutas.github.io/posts/tip-day-powershell-april/)
+
+> [Tip of the day - Powershell for April first. Tricks and pranks Part 3](https://valerasnarbutas.github.io/posts/tip-day-powershell-april-part-3/)

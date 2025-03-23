@@ -106,3 +106,9 @@ $speak.Speak('Come see the violence inherent in the system. Help! Help! Im being
 [console]::beep(523,150)       
 [console]::beep(440,1000)
 ```
+
+
+New pranks will be added in the next parts. Stay tuned!> 
+> [Tip of the day - Powershell for April first. Tricks and pranks Part 2](https://valerasnarbutas.github.io/posts/tip-day-powershell-april-part-2/)
+
+> [Tip of the day - Powershell for April first. Tricks and pranks Part 3](https://valerasnarbutas.github.io/posts/tip-day-powershell-april-part-3/)
