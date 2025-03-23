@@ -28,8 +28,6 @@ Apply these pranks to your colleagues' computers. They will be surprised and wil
 > Note: If you have any other ideas for pranks, please share them in the comments.
 {: .prompt-info }
 
-## Most useful commands
-
 ### Random Caps Lock Toggling:
 
 ```powershell
