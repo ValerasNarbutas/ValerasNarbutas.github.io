@@ -89,14 +89,7 @@ class ModeToggle {
 }
 
 const toggle = new ModeToggle();
-
-// Bind toggle button click
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById(ModeToggle.ID);
-  if (btn) {
-    btn.addEventListener("click", flipMode);
-  }
-});
+window.modeToggle = toggle; /* expose as expected by misc.min.js */
 
 function flipMode() {
   if (toggle.hasMode) {
