@@ -22,7 +22,7 @@ I specialize in SPFx, PnP, Microsoft Graph, Copilot extensibility, and developer
 
 I'm an active member of [WomenGoTech](https://womengotech.com/), where I mentor women starting their careers in technology.
 
-[![WomenGoTech](https://valerasnarbutas.github.io/img/womenGotechLogo.png){: width="150" height="150"}](https://womengotech.com/ "WomenGoTech")
+[![WomenGoTech](/assets/img/womenGotechLogo.png){: width="150" height="150"}](https://womengotech.com/ "WomenGoTech")
 
 I'm an active contributor to several open-source projects and have created code samples and tools widely adopted by the community. Most of my samples are on [Microsoft 365 & Power Platform Community](https://pnp.github.io/#samples).
 
