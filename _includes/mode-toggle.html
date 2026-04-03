@@ -21,7 +21,7 @@ class ModeToggle {
   }
 
   get sysDarkPrefers() {
-    return window.matchMedia("(prefers-color-scheme: light)");
+    return window.matchMedia("(prefers-color-scheme: dark)");
   }
 
   get isSysDarkPrefer() {
@@ -90,6 +90,14 @@ class ModeToggle {
 
 const toggle = new ModeToggle();
 
+// Bind toggle button click
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById(ModeToggle.ID);
+  if (btn) {
+    btn.addEventListener("click", flipMode);
+  }
+});
+
 function flipMode() {
   if (toggle.hasMode) {
     if (toggle.isSysDarkPrefer) {
@@ -114,5 +122,4 @@ function flipMode() {
   }
   toggle.notify();
 }
-flipMode();
 </script>
