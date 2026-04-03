@@ -6,13 +6,17 @@ order: 4
 
 ## About this blog
 
-M365 Dev Insights is my personal blog — a place to store things I know I'll forget and to share knowledge with the community.
+M365 Dev Insights is my personal blog — a place to capture things I know I'll forget and to share knowledge with the community.
 
-I share helpful tips, code samples, and insights to help developers be more productive and solve real problems. I believe in giving back: mentoring, contributing to open source, and helping aspiring developers grow.
+I write about Microsoft 365 development, SharePoint, Power Platform, and the latest in AI & Copilot extensibility. My goal is to share practical tips, code samples, and insights that help developers be more productive and solve real problems.
+
+I believe in giving back: mentoring, contributing to open source, and helping aspiring developers grow in the Microsoft ecosystem.
 
 ## About me
 
 I'm an experienced Microsoft Modern Workplace Developer and **Microsoft MVP** for the M365 technology area, with over 18 years of experience in web development, SharePoint, Microsoft Teams, and the Power Platform.
+
+I specialize in SPFx, PnP, Microsoft Graph, Copilot extensibility, and developer tooling. I'm passionate about building solutions that make people's work lives easier.
 
 ![Microsoft MVP Badge](https://valerasnarbutas.github.io/assets/img/cert/MVP_Badge_Horizontal_Preferred_Blue3005_RGB.png)
 
@@ -22,9 +26,9 @@ I'm an active member of [WomenGoTech](https://womengotech.com/), where I mentor 
 
 I'm an active contributor to several open-source projects and have created code samples and tools widely adopted by the community. Most of my samples are on [Microsoft 365 & Power Platform Community](https://pnp.github.io/#samples).
 
-🐙 GitHub: [https://github.com/ValerasNarbutas](https://github.com/ValerasNarbutas)
+🐙 **GitHub:** [github.com/ValerasNarbutas](https://github.com/ValerasNarbutas)
 
-📄 Online resume: [https://valerasnarbutas.github.io/cv/](https://valerasnarbutas.github.io/cv/)
+📄 **Profile & CV:** [valerasnarbutas.github.io/profileCV](https://valerasnarbutas.github.io/profileCV/)
 
 ## 🏅 Badges
 
