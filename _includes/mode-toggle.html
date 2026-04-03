@@ -86,33 +86,32 @@ class ModeToggle {
       }
     }
   }
-}
 
-const toggle = new ModeToggle();
-window.modeToggle = toggle; /* expose as expected by misc.min.js */
-
-function flipMode() {
-  if (toggle.hasMode) {
-    if (toggle.isSysDarkPrefer) {
-      if (toggle.isLightMode) {
-        toggle.clearMode();
+  flipMode() {
+    if (this.hasMode) {
+      if (this.isSysDarkPrefer) {
+        if (this.isLightMode) {
+          this.clearMode();
+        } else {
+          this.setLight();
+        }
       } else {
-        toggle.setLight();
+        if (this.isDarkMode) {
+          this.clearMode();
+        } else {
+          this.setDark();
+        }
       }
     } else {
-      if (toggle.isDarkMode) {
-        toggle.clearMode();
+      if (this.isSysDarkPrefer) {
+        this.setLight();
       } else {
-        toggle.setDark();
+        this.setDark();
       }
     }
-  } else {
-    if (toggle.isSysDarkPrefer) {
-      toggle.setLight();
-    } else {
-      toggle.setDark();
-    }
+    this.notify();
   }
-  toggle.notify();
 }
+
+const modeToggle = new ModeToggle();
 </script>
