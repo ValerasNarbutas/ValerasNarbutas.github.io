@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Image Generation Prompts for SharePoint Intranet Design"
 author: valeras
-date: 2026-05-07 08:00:00 +0800
+date: 2026-05-05 08:00:00 +0300
 categories:
   - TipOfTheDay
   - AI
