@@ -1,7 +1,7 @@
 ---
 title: "Sharing is Caring – GitHub Copilot Workspace for M365 Projects"
 author: valeras
-date: 2026-05-05 10:00:00 +0300
+date: 2026-05-05 10:00:00 +0800
 categories:
   - SharingIsCaring
   - AI
