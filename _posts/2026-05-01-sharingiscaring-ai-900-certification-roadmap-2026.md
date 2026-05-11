@@ -19,7 +19,7 @@ pin: false
 slug: ai-900-certification-ai-roadmap-2026
 comments: true
 image:
-  path: /img/posts/ai900_cert_roadmap_2026.png
+  path: /img/posts/ai_900_certification_roadmap.png
   alt: Microsoft AI-900 Certification and AI Roadmap for 2026
 ---
 

@@ -19,7 +19,7 @@ pin: false
 slug: tip-day-build-first-copilot-studio-agent
 comments: true
 image:
-  path: /img/posts/tip_copilot_studio_first_agent.png
+  path: /img/posts/tip_build_copilot_studio_agent.png
   alt: Build your first Copilot Studio Agent in 10 minutes
 ---
 

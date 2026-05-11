@@ -21,7 +21,7 @@ pin: false
 slug: tip-day-getting-started-azure-ai-foundry-portal
 comments: true
 image:
-  path: /img/posts/tip_azure_ai_foundry_portal.png
+  path: /img/posts/tip_azure_ai_foundry_getting_started.png
   alt: Getting started with Azure AI Foundry new portal view
 ---
 
