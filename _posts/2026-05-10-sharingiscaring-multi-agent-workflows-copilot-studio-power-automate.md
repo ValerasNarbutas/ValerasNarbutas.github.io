@@ -273,5 +273,4 @@ Multi-agent architectures in Copilot Studio and Power Automate are no longer exp
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `three interconnected AI agent robots passing glowing task packages between each other with luminous arrows, Power Automate blue lightning bolts connecting the flow, Copilot Studio purple accents on each robot, dark background, isometric flat design illustration, Microsoft purple and blue color scheme, clean enterprise style --v 7.0`
+

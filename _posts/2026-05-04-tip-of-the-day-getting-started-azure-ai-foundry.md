@@ -278,5 +278,4 @@ The new Azure AI Foundry portal consolidates everything you need to build produc
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `modern AI development portal dashboard floating in dark space, holographic panels showing model cards with deployment metrics and evaluation scores, glowing Azure blue and white color scheme, futuristic flat design, clean enterprise aesthetic, multiple interconnected floating UI panels, dark navy background --v 7.0`
+

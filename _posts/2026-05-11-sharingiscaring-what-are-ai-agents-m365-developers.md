@@ -275,5 +275,4 @@ AI agents are not magic — they are a well-defined pattern of perception, reaso
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `friendly AI agent robot with labeled thought bubbles floating around it: perception reasoning action memory, surrounded by floating Microsoft 365 app icons Teams SharePoint Outlook, Microsoft blue and gold color scheme, clean flat design illustration, educational diagram style, dark navy background --v 7.0`
+

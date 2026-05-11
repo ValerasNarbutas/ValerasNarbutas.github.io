@@ -253,5 +253,4 @@ Start with the free Microsoft Learn paths, run the free practice assessment, and
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `abstract neural network brain made of glowing gold nodes and connections floating above a Microsoft certification badge, electric blue circuit lines in background, dark navy background, flat design illustration, gold and electric blue color scheme, clean minimal enterprise style --v 7.0`
+

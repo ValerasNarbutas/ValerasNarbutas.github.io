@@ -196,5 +196,4 @@ These two tools are not competitors — they are complementary layers of the Pow
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `split screen flat illustration, left side glowing purple Copilot Studio robot with floating chat speech bubbles, right side blue Power Automate lightning bolt with connected flow arrows and gear icons, both sides separated by a clean vertical divider, dark navy background, modern minimal enterprise design, Microsoft purple and blue color scheme --v 7.0`
+
