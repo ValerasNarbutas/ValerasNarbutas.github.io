@@ -183,5 +183,4 @@ Ten minutes, no code, and you have a working AI agent backed by your own content
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `friendly purple robot assistant emerging from a smartphone screen, surrounded by floating chat bubbles and gear icons, Microsoft purple and teal color scheme, flat design illustration, step-by-step building blocks visual, dark navy background, clean minimal style --v 7.0`
+

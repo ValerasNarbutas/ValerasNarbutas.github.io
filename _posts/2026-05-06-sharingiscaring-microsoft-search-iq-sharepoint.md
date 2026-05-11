@@ -219,5 +219,4 @@ For organisations investing in Microsoft 365 as their intranet platform, underst
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `glowing magnifying glass with an AI neural network brain inside it, surrounded by floating SharePoint document icons people profile cards and knowledge graph nodes with connecting lines, Microsoft blue and gold color scheme, flat design illustration, dark navy background, clean minimal enterprise style --v 7.0`
+

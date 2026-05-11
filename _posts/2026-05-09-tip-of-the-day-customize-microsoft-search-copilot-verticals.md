@@ -257,5 +257,4 @@ Custom Search Verticals with Copilot answers turn Microsoft Search into a precis
 
 ## Image Prompt
 
-> **Midjourney prompt:**
-> `colorful vertical search tab panels floating in a modern office environment, Copilot purple AI star icon glowing at the top, custom search result cards with filter tags and metadata columns, Microsoft blue and purple gradient color scheme, flat design illustration, dark navy background, clean enterprise aesthetic --v 7.0`
+
