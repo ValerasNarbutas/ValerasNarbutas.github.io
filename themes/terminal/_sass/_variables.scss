@@ -1,0 +1,68 @@
+// ============================================================
+//  Jekyll Terminal Theme — SASS Variables
+//  Modify this file to retheme the entire site
+// ============================================================
+
+// ── Color Schemes ────────────────────────────────────────────
+// Override by setting terminal.color_scheme in _config.yml
+
+// Green (default — classic phosphor green)
+$green-primary:    #00ff41;
+$green-dim:        #00b32c;
+$green-bright:     #69ff47;
+
+// Amber (warm retro CRT)
+$amber-primary:    #ffb000;
+$amber-dim:        #cc8800;
+$amber-bright:     #ffd060;
+
+// Blue (cold IBM terminal)
+$blue-primary:     #4fc3f7;
+$blue-dim:         #0288d1;
+$blue-bright:      #b3e5fc;
+
+// White (clean minimal terminal)
+$white-primary:    #e0e0e0;
+$white-dim:        #9e9e9e;
+$white-bright:     #ffffff;
+
+// ── Base Palette ─────────────────────────────────────────────
+$bg:               #0d0d0d;   // near-black background
+$bg-surface:       #141414;   // slightly lighter surface (cards, code)
+$bg-border:        #1e1e1e;   // borders and dividers
+$text-muted:       #555555;   // dimmed/secondary text
+$text-comment:     #4a4a4a;   // very dim (comments, timestamps)
+$cursor-color:     $green-primary;
+$selection-bg:     #00ff4130; // green with low alpha
+
+// Active color (set based on color_scheme — default green)
+$term-primary:     $green-primary;
+$term-dim:         $green-dim;
+$term-bright:      $green-bright;
+
+// ── Typography ───────────────────────────────────────────────
+$font-mono:        'Fira Code', 'JetBrains Mono', 'Cascadia Code',
+                   'Courier New', Courier, monospace;
+$font-size-base:   14px;
+$font-size-sm:     12px;
+$font-size-lg:     16px;
+$font-size-xl:     20px;
+$line-height:      1.7;
+
+// ── Layout ───────────────────────────────────────────────────
+$container-width:  860px;
+$header-height:    56px;
+$spacing-xs:       4px;
+$spacing-sm:       8px;
+$spacing-md:       16px;
+$spacing-lg:       32px;
+$spacing-xl:       64px;
+
+// ── Effects ──────────────────────────────────────────────────
+$scanline-height:  2px;
+$scanline-opacity: 0.04;
+$glow-radius:      6px;
+$glow-spread:      0px;
+$border-radius:    2px;      // terminals have sharp corners
+$transition-fast:  0.15s ease;
+$transition-med:   0.3s ease;

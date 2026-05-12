@@ -1,0 +1,31 @@
+<header class="site-header" role="banner">
+  <div class="header-inner">
+
+    <!-- Prompt / Site title -->
+    <div class="site-prompt">
+      <a href="{{ '/' | prepend: site.baseurl }}" aria-label="{{ site.title }} home">
+        <span class="prompt-user">{{ site.terminal.username | default: 'user' }}</span><!--
+        --><span class="prompt-at">@</span><!--
+        --><span class="prompt-host">{{ site.terminal.hostname | default: 'blog' }}</span><!--
+        --><span class="prompt-colon">:</span><!--
+        --><span class="prompt-path">~</span>
+      </a>
+      <span class="prompt-char">&nbsp;{{ site.terminal.prompt_char | default: '$' }}</span>
+      {%- if site.terminal.cursor_blink -%}
+      <span class="cursor" aria-hidden="true"></span>
+      {%- endif -%}
+    </div>
+
+    <!-- Navigation -->
+    <nav class="site-nav" aria-label="Main navigation">
+      {%- for item in site.nav -%}
+      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+      {%- endfor -%}
+
+      {%- if site.author.github != '' and site.author.github -%}
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" aria-label="GitHub">gh://{{ site.author.github }}</a>
+      {%- endif -%}
+    </nav>
+
+  </div>
+</header>

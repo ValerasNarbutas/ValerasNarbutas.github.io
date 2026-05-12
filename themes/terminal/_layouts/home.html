@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="post-list">
+  <div class="ls-header"></div>
+  <p class="ls-total" style="color:#555;font-size:12px;">total {{ paginator.total_posts }} post{% if paginator.total_posts != 1 %}s{% endif %}</p>
+
+  {%- for post in paginator.posts -%}
+  <article class="post-item" itemscope itemtype="http://schema.org/BlogPosting">
+    <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ post.date | date: "%Y-%m-%d" }}
+    </time>
+
+    <a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+      <span itemprop="name">{{ post.title | escape }}</span>
+    </a>
+
+    <div class="post-tags">
+      {%- for tag in post.tags limit:2 -%}
+      <span class="tag">{{ tag }}</span>
+      {%- endfor -%}
+    </div>
+  </article>
+  {%- endfor -%}
+</div>
+
+{%- if paginator.total_pages > 1 -%}
+<nav class="pagination" aria-label="Pagination">
+  {%- if paginator.previous_page -%}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; prev</a>
+  {%- else -%}
+  <span style="color:#333">&larr; prev</span>
+  {%- endif -%}
+
+  <span class="current">
+    page {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+
+  {%- if paginator.next_page -%}
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">next &rarr;</a>
+  {%- else -%}
+  <span style="color:#333">next &rarr;</span>
+  {%- endif -%}
+</nav>
+{%- endif -%}

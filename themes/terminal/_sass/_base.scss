@@ -1,0 +1,221 @@
+// ============================================================
+//  Jekyll Terminal Theme — Base Styles
+// ============================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+
+// ── Reset ────────────────────────────────────────────────────
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// ── Body ─────────────────────────────────────────────────────
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $bg;
+  color: $term-primary;
+  font-family: $font-mono;
+  font-size: $font-size-base;
+  line-height: $line-height;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: $selection-bg;
+  color: $term-bright;
+}
+
+// ── Links ────────────────────────────────────────────────────
+a {
+  color: $term-bright;
+  text-decoration: none;
+  border-bottom: 1px solid $term-dim;
+  transition: color $transition-fast, border-color $transition-fast;
+
+  &:hover {
+    color: #fff;
+    border-color: $term-primary;
+    text-shadow: 0 0 $glow-radius $term-primary;
+  }
+}
+
+// ── Headings ─────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  color: $term-bright;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: $spacing-md;
+  margin-top: $spacing-lg;
+
+  &::before {
+    color: $term-dim;
+    margin-right: $spacing-sm;
+  }
+}
+
+h1::before { content: '#'; }
+h2::before { content: '##'; }
+h3::before { content: '###'; }
+h4::before { content: '####'; }
+
+// ── Paragraphs ───────────────────────────────────────────────
+p {
+  margin-bottom: $spacing-md;
+  color: darken($term-primary, 10%);
+}
+
+// ── Lists ────────────────────────────────────────────────────
+ul, ol {
+  margin: 0 0 $spacing-md $spacing-lg;
+
+  li {
+    margin-bottom: $spacing-xs;
+
+    &::marker {
+      color: $term-dim;
+    }
+  }
+}
+
+ul li::before {
+  // handled by ::marker above
+}
+
+// ── Blockquote ───────────────────────────────────────────────
+blockquote {
+  border-left: 3px solid $term-dim;
+  padding: $spacing-sm $spacing-md;
+  margin: $spacing-md 0;
+  background: $bg-surface;
+  color: $text-muted;
+
+  &::before {
+    content: '// ';
+    color: $term-dim;
+  }
+
+  p {
+    color: $text-muted;
+    margin-bottom: 0;
+    display: inline;
+  }
+}
+
+// ── Inline Code ──────────────────────────────────────────────
+code {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  color: $amber-primary;
+  background: $bg-surface;
+  padding: 1px 5px;
+  border: 1px solid $bg-border;
+  border-radius: $border-radius;
+}
+
+// ── Code Blocks ──────────────────────────────────────────────
+pre {
+  background: $bg-surface;
+  border: 1px solid $bg-border;
+  border-left: 3px solid $term-dim;
+  padding: $spacing-md;
+  overflow-x: auto;
+  margin: $spacing-md 0;
+  position: relative;
+
+  &::before {
+    content: '$ ';
+    color: $term-dim;
+  }
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: $term-primary;
+    font-size: $font-size-sm;
+  }
+}
+
+// Rouge syntax highlight overrides
+.highlight {
+  background: $bg-surface !important;
+  border: 1px solid $bg-border;
+  border-left: 3px solid $term-dim;
+
+  pre { border: none; border-left: none; }
+}
+
+// ── Tables ───────────────────────────────────────────────────
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-md 0;
+  font-size: $font-size-sm;
+
+  th {
+    color: $term-bright;
+    border-bottom: 1px solid $term-dim;
+    padding: $spacing-xs $spacing-sm;
+    text-align: left;
+  }
+
+  td {
+    border-bottom: 1px solid $bg-border;
+    padding: $spacing-xs $spacing-sm;
+    color: darken($term-primary, 5%);
+  }
+
+  tr:hover td {
+    background: $bg-surface;
+  }
+}
+
+// ── Horizontal Rule ──────────────────────────────────────────
+hr {
+  border: none;
+  border-top: 1px solid $bg-border;
+  margin: $spacing-lg 0;
+
+  &::after {
+    content: '─── eof ───';
+    display: block;
+    text-align: center;
+    color: $text-comment;
+    font-size: $font-size-sm;
+    margin-top: -0.7em;
+    background: $bg;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $spacing-sm;
+  }
+}
+
+// ── Images ───────────────────────────────────────────────────
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid $bg-border;
+  display: block;
+  margin: $spacing-md auto;
+}
+
+// ── Scrollbar ────────────────────────────────────────────────
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track { background: $bg; }
+::-webkit-scrollbar-thumb {
+  background: $term-dim;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover { background: $term-primary; }

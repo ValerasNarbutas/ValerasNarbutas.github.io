@@ -1,0 +1,155 @@
+// ============================================================
+//  Jekyll Terminal Theme — Terminal FX
+//  CRT effects, boot sequence, cursor, glow
+// ============================================================
+
+// ── CRT Scanlines ────────────────────────────────────────────
+body.scanlines::before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent #{$scanline-height - 1px},
+    rgba(0, 0, 0, $scanline-opacity) #{$scanline-height - 1px},
+    rgba(0, 0, 0, $scanline-opacity) $scanline-height
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+// ── CRT Glow ─────────────────────────────────────────────────
+body.crt-glow {
+  .site-prompt,
+  .post-title-link,
+  h1, h2 {
+    text-shadow: 0 0 $glow-radius rgba($term-primary, 0.4);
+  }
+}
+
+// ── Cursor blink ─────────────────────────────────────────────
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+// ── Boot sequence ────────────────────────────────────────────
+.boot-sequence {
+  position: fixed;
+  inset: 0;
+  background: $bg;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-lg;
+  animation: boot-fade 0.5s ease 2.8s forwards;
+}
+
+@keyframes boot-fade {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.boot-lines {
+  max-width: 480px;
+  width: 100%;
+}
+
+.boot-line {
+  color: $term-dim;
+  font-size: $font-size-sm;
+  opacity: 0;
+  animation: line-appear 0.1s ease forwards;
+  margin-bottom: 2px;
+
+  &:nth-child(1) { animation-delay: 0.1s; }
+  &:nth-child(2) { animation-delay: 0.5s; }
+  &:nth-child(3) { animation-delay: 0.9s; }
+  &:nth-child(4) { animation-delay: 1.3s; }
+  &:nth-child(5) { animation-delay: 1.8s; color: $term-bright; font-weight: 600; }
+
+  .ok    { color: $green-primary; }
+  .hl    { color: $term-bright; }
+}
+
+@keyframes line-appear {
+  from { opacity: 0; transform: translateX(-4px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+// ── Typing animation (utility class) ─────────────────────────
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid $term-primary;
+  width: 0;
+  animation:
+    typing 1.5s steps(40, end) 0.3s forwards,
+    cursor-blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes cursor-blink {
+  50% { border-color: transparent; }
+}
+
+// ── Glow pulse (for tags, active links) ──────────────────────
+.glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow-pulse {
+  from { text-shadow: 0 0 4px rgba($term-primary, 0.3); }
+  to   { text-shadow: 0 0 10px rgba($term-primary, 0.7); }
+}
+
+// ── Color scheme overrides ───────────────────────────────────
+// Applied via JS based on terminal.color_scheme in _config.yml
+
+[data-scheme="amber"] {
+  --term-primary: #{$amber-primary};
+  --term-dim:     #{$amber-dim};
+  --term-bright:  #{$amber-bright};
+  --selection-bg: #{rgba($amber-primary, 0.2)};
+
+  .cursor { background: $amber-primary; }
+  .scanlines::before {
+    // amber scanlines stay the same
+  }
+}
+
+[data-scheme="blue"] {
+  --term-primary: #{$blue-primary};
+  --term-dim:     #{$blue-dim};
+  --term-bright:  #{$blue-bright};
+}
+
+[data-scheme="white"] {
+  --term-primary: #{$white-primary};
+  --term-dim:     #{$white-dim};
+  --term-bright:  #{$white-bright};
+}
+
+// ── Flicker effect (optional, subtle) ────────────────────────
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: 1;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.97;
+    filter: brightness(0.95);
+  }
+}

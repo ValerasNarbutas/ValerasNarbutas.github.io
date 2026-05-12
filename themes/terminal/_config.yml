@@ -1,0 +1,84 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           Jekyll Terminal Theme — Configuration          ║
+# ║         github.com/devshelf/jekyll-terminal-theme        ║
+# ╚══════════════════════════════════════════════════════════╝
+
+# Site identity
+title: "user@hostname:~"
+tagline: "a terminal-themed jekyll blog"
+description: "Your site description for SEO and the Atom feed."
+url: ""       # e.g. https://yourusername.github.io
+baseurl: ""   # leave empty unless deploying to a subdirectory
+
+# ── Terminal look & feel ─────────────────────────────────────
+terminal:
+  username: "user"          # left side of prompt  (user@hostname)
+  hostname: "blog"          # right side of prompt (user@hostname)
+  prompt_char: "$"          # change to "#" for root, ">" for Windows feel
+  color_scheme: "green"     # green | amber | blue | white
+  show_boot_sequence: true  # animated boot screen on first page load
+  scanlines: true           # CRT scanline overlay
+  crt_glow: true            # phosphor text-glow effect
+  cursor_blink: true        # blinking block cursor in header
+
+# ── Author ───────────────────────────────────────────────────
+author:
+  name:    "Your Name"
+  email:   "you@example.com"
+  github:  ""               # GitHub username (no @)
+  twitter: ""               # Twitter/X username (no @)
+
+# ── Navigation ───────────────────────────────────────────────
+nav:
+  - title: "~/home"
+    url:   "/"
+  - title: "~/about"
+    url:   "/about/"
+  - title: "~/archive"
+    url:   "/archive/"
+  - title: "~/tags"
+    url:   "/tags/"
+
+# ── Pagination ───────────────────────────────────────────────
+paginate:      10
+paginate_path: "/page/:num/"
+
+# ── Markdown ─────────────────────────────────────────────────
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    block:
+      line_numbers: true
+
+# ── Plugins (all GitHub Pages compatible) ────────────────────
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# ── Defaults ─────────────────────────────────────────────────
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# ── Exclude from build ───────────────────────────────────────
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - "*.gemspec"
+  - node_modules
+  - vendor

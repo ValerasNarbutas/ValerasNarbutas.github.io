@@ -1,0 +1,315 @@
+// ============================================================
+//  Jekyll Terminal Theme — Components
+// ============================================================
+
+// ── Post Card (ls -la style listing) ─────────────────────────
+.post-list {
+  margin-bottom: $spacing-xl;
+
+  .ls-header {
+    color: $text-comment;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-sm;
+    padding-bottom: $spacing-xs;
+    border-bottom: 1px solid $bg-border;
+
+    &::before {
+      content: '$ ls -la ~/posts/';
+      color: $term-dim;
+    }
+  }
+
+  .ls-total {
+    color: $text-comment;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-sm;
+  }
+}
+
+.post-item {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  align-items: baseline;
+  gap: $spacing-md;
+  padding: $spacing-xs 0;
+  border-bottom: 1px solid transparent;
+  transition: background $transition-fast;
+
+  &:hover {
+    background: $bg-surface;
+    padding-left: $spacing-sm;
+    padding-right: $spacing-sm;
+    margin-left: -$spacing-sm;
+    margin-right: -$spacing-sm;
+  }
+
+  .post-date {
+    color: $text-comment;
+    font-size: $font-size-sm;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .post-title-link {
+    color: $term-primary;
+    border: none;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:hover {
+      color: $term-bright;
+      text-shadow: 0 0 $glow-radius $term-dim;
+    }
+
+    &::before {
+      content: '';
+      color: $term-dim;
+      margin-right: $spacing-xs;
+    }
+  }
+
+  .post-tags {
+    display: flex;
+    gap: $spacing-xs;
+    flex-shrink: 0;
+
+    .tag {
+      font-size: 11px;
+      color: $text-comment;
+      &::before { content: '#'; }
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    gap: $spacing-xs;
+
+    .post-tags { display: none; }
+    .post-date { font-size: 11px; }
+  }
+}
+
+// ── Post Meta ────────────────────────────────────────────────
+.post-meta {
+  font-size: $font-size-sm;
+  color: $text-muted;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+  margin-bottom: $spacing-lg;
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: $spacing-xs;
+
+    &::before {
+      color: $term-dim;
+    }
+
+    &.meta-date::before  { content: '[date]'; }
+    &.meta-read::before  { content: '[read]'; }
+    &.meta-tags::before  { content: '[tags]'; }
+  }
+
+  .post-tag {
+    color: $term-dim;
+    &::before { content: '#'; }
+    &:not(:last-child)::after { content: ', '; color: $text-comment; }
+  }
+}
+
+// ── Tags inline ──────────────────────────────────────────────
+.tag-badge {
+  display: inline-block;
+  font-size: 11px;
+  color: $text-muted;
+  border: 1px solid $bg-border;
+  padding: 1px $spacing-xs;
+  margin-right: $spacing-xs;
+  border-radius: $border-radius;
+
+  &::before { content: '#'; }
+
+  a {
+    color: inherit;
+    border: none;
+    &:hover { color: $term-primary; }
+  }
+}
+
+// ── Related posts ────────────────────────────────────────────
+.related-posts {
+  margin-top: $spacing-xl;
+  padding-top: $spacing-lg;
+  border-top: 1px solid $bg-border;
+
+  .related-title {
+    color: $term-dim;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-md;
+
+    &::before {
+      content: '// related posts';
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: $spacing-xs 0;
+      border-bottom: 1px solid $bg-border;
+
+      a {
+        color: $term-primary;
+        border: none;
+        font-size: $font-size-sm;
+
+        &::before {
+          content: '→ ';
+          color: $term-dim;
+        }
+
+        &:hover { color: $term-bright; }
+      }
+    }
+  }
+}
+
+// ── 404 page ─────────────────────────────────────────────────
+.error-page {
+  text-align: left;
+  padding: $spacing-xl 0;
+
+  .error-code {
+    font-size: 48px;
+    color: $term-dim;
+    line-height: 1;
+    margin-bottom: $spacing-md;
+  }
+
+  .error-message {
+    color: $amber-primary;
+    margin-bottom: $spacing-lg;
+
+    &::before {
+      content: 'ERROR: ';
+      color: $text-muted;
+    }
+  }
+
+  .error-cmd {
+    color: $text-muted;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-lg;
+  }
+}
+
+// ── Social links ─────────────────────────────────────────────
+.social-links {
+  display: flex;
+  gap: $spacing-md;
+
+  a {
+    color: $text-muted;
+    border: none;
+    font-size: $font-size-sm;
+    display: flex;
+    align-items: center;
+    gap: $spacing-xs;
+
+    &:hover {
+      color: $term-primary;
+      text-shadow: none;
+    }
+  }
+}
+
+// ── Table of Contents ────────────────────────────────────────
+.toc {
+  background: $bg-surface;
+  border: 1px solid $bg-border;
+  border-left: 3px solid $term-dim;
+  padding: $spacing-md;
+  margin-bottom: $spacing-xl;
+  font-size: $font-size-sm;
+
+  .toc-title {
+    color: $term-dim;
+    margin-bottom: $spacing-sm;
+    font-size: $font-size-sm;
+
+    &::before { content: '// '; }
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    ul { padding-left: $spacing-md; margin-top: $spacing-xs; }
+
+    li {
+      margin-bottom: $spacing-xs;
+
+      a {
+        color: $text-muted;
+        border: none;
+        font-size: $font-size-sm;
+
+        &::before { content: '· '; color: $text-comment; }
+        &:hover { color: $term-primary; }
+      }
+    }
+  }
+}
+
+// ── Post navigation prev/next ────────────────────────────────
+.post-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacing-md;
+  margin-top: $spacing-xl;
+  padding-top: $spacing-lg;
+  border-top: 1px solid $bg-border;
+
+  .prev-post, .next-post {
+    padding: $spacing-md;
+    border: 1px solid $bg-border;
+    transition: border-color $transition-fast, background $transition-fast;
+
+    &:hover {
+      border-color: $term-dim;
+      background: $bg-surface;
+    }
+
+    .nav-label {
+      display: block;
+      font-size: 11px;
+      color: $text-comment;
+      margin-bottom: $spacing-xs;
+    }
+
+    a {
+      color: $term-primary;
+      border: none;
+      font-size: $font-size-sm;
+      display: block;
+
+      &:hover { color: $term-bright; }
+    }
+  }
+
+  .next-post {
+    text-align: right;
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}

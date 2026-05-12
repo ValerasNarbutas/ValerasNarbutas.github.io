@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <p class="breadcrumb">
+    <span class="bc-path">/posts/{{ page.url | remove: '/posts/' | remove: '/' | truncate: 40 }}</span>
+  </p>
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    <div class="post-meta">
+      <span class="meta-item meta-date">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%Y-%m-%d" }}
+        </time>
+      </span>
+
+      <span class="meta-item meta-read">
+        ~{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read
+      </span>
+
+      {%- if page.tags.size > 0 -%}
+      <span class="meta-item meta-tags">
+        {%- for tag in page.tags -%}
+        <a class="post-tag" href="{{ '/tags/#' | append: tag | prepend: site.baseurl }}">{{ tag }}</a>
+        {%- endfor -%}
+      </span>
+      {%- endif -%}
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <!-- Post navigation -->
+  {%- if page.previous or page.next -%}
+  <nav class="post-navigation" aria-label="Post navigation">
+    {%- if page.previous -%}
+    <div class="prev-post">
+      <span class="nav-label">&larr; previous</span>
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title | escape }}</a>
+    </div>
+    {%- else -%}<div></div>{%- endif -%}
+
+    {%- if page.next -%}
+    <div class="next-post">
+      <span class="nav-label">next &rarr;</span>
+      <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title | escape }}</a>
+    </div>
+    {%- endif -%}
+  </nav>
+  {%- endif -%}
+
+  <!-- Related posts -->
+  {%- if site.related_posts.size > 0 -%}
+  <aside class="related-posts">
+    <p class="related-title"></p>
+    <ul>
+      {%- for post in site.related_posts limit:3 -%}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        <span style="color:#444;font-size:11px;margin-left:8px">{{ post.date | date: "%Y-%m-%d" }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </aside>
+  {%- endif -%}
+
+</article>

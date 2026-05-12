@@ -1,0 +1,24 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+
+    <div class="footer-prompt">
+      <span class="prompt-char">{{ site.terminal.prompt_char | default: '$' }}</span>&nbsp;
+      <span style="color:#444">echo &ldquo;{{ site.author.name | default: 'author' }} &copy; {{ 'now' | date: '%Y' }}&rdquo;</span>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:16px;font-size:12px;color:#444">
+      {%- if site.author.github != '' and site.author.github -%}
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">github</a>
+      {%- endif -%}
+      {%- if site.author.twitter != '' and site.author.twitter -%}
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">twitter</a>
+      {%- endif -%}
+      <a href="{{ '/feed.xml' | prepend: site.baseurl }}">rss</a>
+      <a href="#main-content" style="color:#333">↑ top</a>
+    </div>
+
+  </div>
+  <div style="text-align:center;font-size:11px;color:#2a2a2a;margin-top:12px;">
+    Built with <a href="https://github.com/devshelf/jekyll-terminal-theme" style="color:#2a2a2a;border-color:#222">jekyll-terminal-theme</a>
+  </div>
+</footer>
