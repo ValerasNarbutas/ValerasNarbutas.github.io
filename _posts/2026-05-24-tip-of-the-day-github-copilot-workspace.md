@@ -26,7 +26,7 @@ image:
 
 ## Summary
 
-GitHub Copilot Workspace — now generally available after Build 2026 — lets you describe a feature in plain English and get a complete multi-file implementation plan with code changes ready to review and merge. Here's how to start using it today.
+GitHub Copilot Workspace lets you describe a feature in plain English and get a complete multi-file implementation plan with code changes ready to review and merge. Here's how to start using it today.
 
 ---
 
@@ -137,7 +137,6 @@ Here are scenarios where Copilot Workspace shines for Microsoft 365 developers:
 ## Resources
 
 - [GitHub Copilot Workspace docs](https://docs.github.com/en/copilot/github-copilot-workspace)
-- [Copilot Workspace – Build 2026 announcement](https://github.blog/2026-05-19-copilot-workspace-generally-available/)
 - [GitHub Next – Copilot Workspace project page](https://githubnext.com/projects/copilot-workspace)
 
 ---
