@@ -25,5 +25,11 @@ Before writing any blog post or tip that references:
 - Tags are lowercase kebab-case in front matter
 - The Chirpy theme is used — follow its front matter conventions
 
+## Git / PR Workflow
+
+- Before referencing or updating a PR, always run `gh pr list --state open` to confirm it still exists and is open.
+- Never assume a PR is open — it may have been merged or closed between turns.
+- Always create a new PR if no open PR exists for the current branch.
+
 ## Image Upload
 - Binary files >2MB may fail with `git push` (GitHub 500). Workaround: use `gh api repos/.../contents/... -X PUT` with base64-encoded content.
