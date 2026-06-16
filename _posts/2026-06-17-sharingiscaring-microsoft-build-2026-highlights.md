@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Build 2026 – Agentic AI, MAI Models, and the Agent-Native Platform"
 author: valeras
-date: 2026-06-17 10:00:00 +0800
+date: 2026-06-17 00:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

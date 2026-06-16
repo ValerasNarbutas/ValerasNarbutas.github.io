@@ -1,7 +1,7 @@
 ---
 title: "Tip: Try MAI-Thinking-1 – Microsoft's First Reasoning Model on Azure AI Foundry"
 author: valeras
-date: 2026-06-17 12:00:00 +0800
+date: 2026-06-17 01:00:00 +0300
 categories:
   - TipOfTheDay
   - AI
