@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot App – The Agent-Native Desktop Experience (Technical Preview)"
 author: valeras
-date: 2026-06-17 11:00:00 +0800
+date: 2026-06-17 00:30:00 +0300
 categories:
   - SharingIsCaring
   - GitHub
