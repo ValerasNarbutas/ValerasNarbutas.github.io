@@ -66,9 +66,12 @@ amber on dark charcoal background, flat isometric design --v 7.0
 | M365 / SharePoint      | interconnected documents, collaboration hub           |
 | Fun / pranks           | grinning office worker, playful movie code, popcorn   |
 
-## Worked examples
+## Proven examples
 
-Topic: *Microsoft 365 Copilot APIs*
+These two prompts produced hero images the owner approved — use them as the
+canonical reference for tone, structure, and level of detail.
+
+Topic: *Microsoft 365 Copilot APIs* (produced `m365_copilot_apis.png`)
 
 ```
 Clean flat 2D digital graphic, wide banner 16:9 aspect ratio.
@@ -79,7 +82,18 @@ Mood: secure, trustworthy, modern.
 No text. No logos.
 ```
 
-Topic: *PowerShell year-end tenant cleanup*
+Topic: *Harmless browser hacker pranks* (produced `browser_hacker_pranks.png`)
+
+```
+Clean flat 2D digital graphic, wide banner 16:9 aspect ratio.
+Scene: a friendly office worker at a laptop, cascading "movie code" streaming from the screen, a small badge and a popcorn bucket nearby. Front-on view, simple geometric shapes.
+Colour palette: soft blue (#4C8DFF) and warm amber (#FFB454) with green code accents (#3DDC84), on a dark charcoal background (#1E2128).
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
+Mood: fun, harmless, tongue-in-cheek.
+No text. No logos.
+```
+
+Topic: *PowerShell year-end tenant cleanup* (untested — same recipe)
 
 ```
 Clean flat 2D digital graphic, wide banner 16:9.
