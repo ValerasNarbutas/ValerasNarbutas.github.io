@@ -1,32 +1,33 @@
 # Image Prompt Style Guide
 
-The site owner's preferred hero-image aesthetic is **flat 2D design** — clean
-vector illustration, **no 3D and no isometric perspective**. Prompts are written
-as **structured, labelled lines** — not a single run-on sentence — and always
-anchor the colour palette with hex codes. This matches the posts from May 2026
-and earlier.
+The site owner's preferred hero-image aesthetic is **clean, modern flat 2D
+design** — smooth solid-colour shapes with **no 3D, no isometric perspective,
+and no hand-drawn or sketchy look**. Prompts are written as **structured,
+labelled lines** — not a single run-on sentence — and always anchor the colour
+palette with hex codes. This matches the posts from May 2026 and earlier.
 
 ## The structured format (use this)
 
 Write every prompt as labelled lines in this order:
 
 ```
-Flat 2D vector illustration, <aspect ratio, e.g. wide banner 16:9>.
+Clean flat 2D digital graphic, <aspect ratio, e.g. wide banner 16:9>.
 Scene: <concrete subject metaphor + 1–2 supporting elements that show flow or transformation>. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
-Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
 Mood: <2–3 adjectives that fit the post, e.g. secure, optimistic, modern>.
 No text. No logos.
 ```
 
 ## Style constraints
 
-- **Name the style first** — `Flat 2D vector illustration`. Keep it flat:
-  front-on view, solid fills, bold outlines. Never photorealistic, never 3D or
-  isometric unless the owner explicitly asks.
+- **Name the style first** — `Clean flat 2D digital graphic`. Keep it flat and
+  polished: front-on view, smooth solid fills, crisp edges. Never
+  photorealistic, never 3D/isometric, never illustrated/sketchy unless the owner
+  explicitly asks.
 - **Always add the flat guardrails** — end the Style line with
-  `no gradients, no shadows, no 3D, no isometric perspective` to stop tools
-  drifting into 3D renders.
+  `no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look`
+  to stop tools drifting into 3D renders or cartoon illustration.
 - **Always specify aspect ratio** — hero/banner `16:9` (default), homepage hero
   `21:9`, thumbnail `4:3` or `1:1`, section divider `8:1`.
 - **Anchor the palette with hex codes.** Default signature:
@@ -70,10 +71,10 @@ amber on dark charcoal background, flat isometric design --v 7.0
 Topic: *Microsoft 365 Copilot APIs*
 
 ```
-Flat 2D vector illustration, wide banner 16:9 aspect ratio.
+Clean flat 2D digital graphic, wide banner 16:9 aspect ratio.
 Scene: a secure vault at the centre linked by clean API lines to a small app window, permission-gated document cards passing through a shield checkpoint into the app. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
-Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
 Mood: secure, trustworthy, modern.
 No text. No logos.
 ```
@@ -81,10 +82,10 @@ No text. No logos.
 Topic: *PowerShell year-end tenant cleanup*
 
 ```
-Flat 2D vector illustration, wide banner 16:9.
-Scene: a tidy server room with a small robot sweeping glowing folders into sorted bins, a checklist clipboard nearby. Front-on view, simple geometric shapes.
+Clean flat 2D digital graphic, wide banner 16:9.
+Scene: a tidy server room with a small robot sweeping folders into sorted bins, a checklist clipboard nearby. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
-Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
 Mood: tidy, satisfying, organised.
 No text. No logos.
 ```

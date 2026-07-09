@@ -92,10 +92,10 @@ This is the fastest way to decide whether the Retrieval API or the Search API fi
 ## Image Prompt
 
 ```
-Flat 2D vector illustration, wide banner 16:9 aspect ratio.
+Clean flat 2D digital graphic, wide banner 16:9 aspect ratio.
 Scene: a secure vault at the centre linked by clean API lines to a small app window, permission-gated document cards passing through a shield checkpoint into the app. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
-Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
 Mood: secure, trustworthy, modern.
 No text. No logos.
 ```

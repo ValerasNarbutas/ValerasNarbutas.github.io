@@ -102,10 +102,10 @@ Beyond the giggles, they're surprisingly useful:
 ## Image Prompt
 
 ```
-Flat 2D vector illustration, wide banner 16:9 aspect ratio.
-Scene: a friendly office worker grinning at a laptop, playful cascading "movie code" streaming from the screen, a small badge and a popcorn bucket nearby. Front-on view, simple geometric shapes.
+Clean flat 2D digital graphic, wide banner 16:9 aspect ratio.
+Scene: a friendly office worker at a laptop, cascading "movie code" streaming from the screen, a small badge and a popcorn bucket nearby. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF) and warm amber (#FFB454) with green code accents (#3DDC84), on a dark charcoal background (#1E2128).
-Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
+Style: minimal modern flat design, smooth solid colour shapes, crisp geometric edges, no outlines, no gradients, no shadows, no 3D, no hand-drawn or sketchy look.
 Mood: fun, harmless, tongue-in-cheek.
 No text. No logos.
 ```
