@@ -92,10 +92,10 @@ This is the fastest way to decide whether the Retrieval API or the Search API fi
 ## Image Prompt
 
 ```
-Flat design illustration, wide banner 16:9 aspect ratio.
-Scene: a secure glowing vault at the centre connected by clean API pipelines to a small app window, permission-gated document cards flowing through a shield checkpoint into the app.
+Flat 2D vector illustration, wide banner 16:9 aspect ratio.
+Scene: a secure vault at the centre linked by clean API lines to a small app window, permission-gated document cards passing through a shield checkpoint into the app. Front-on view, simple geometric shapes.
 Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
-Style: minimal, geometric, tech-forward, subtle isometric depth.
+Style: flat design, bold outlines, solid fills, no gradients, no shadows, no 3D, no isometric perspective.
 Mood: secure, trustworthy, modern.
 No text. No logos.
 ```
