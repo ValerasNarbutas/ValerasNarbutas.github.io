@@ -86,3 +86,16 @@ This is the fastest way to decide whether the Retrieval API or the Search API fi
 ---
 
 *Building something with the Copilot APIs? I'd love to hear which scenario you're tackling — drop a comment below.*
+
+---
+
+## Image Prompt
+
+```
+Flat design illustration, wide banner 16:9 aspect ratio.
+Scene: a secure glowing vault at the centre connected by clean API pipelines to a small app window, permission-gated document cards flowing through a shield checkpoint into the app.
+Colour palette: soft blue (#4C8DFF), warm amber (#FFB454), on a dark charcoal background (#1E2128).
+Style: minimal, geometric, tech-forward, subtle isometric depth.
+Mood: secure, trustworthy, modern.
+No text. No logos.
+```
