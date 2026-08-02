@@ -58,6 +58,72 @@ Because a Copilot App is still just an `.sppkg`, you can **move it between tenan
 
 ---
 
+## Anatomy of a Copilot App
+
+A Copilot App project looks a lot like an SPFx solution you've built before, with a couple of new pieces. The declarative agent definition lives in a dedicated `copilot` folder, and the component source sits under `src/copilotComponents`.
+
+The `copilot` folder holds the agent side of the app:
+
+| File | Purpose |
+|---|---|
+| `manifest.json` | The Teams / Microsoft 365 app manifest that registers the declarative agent (name, description, icons, identifiers). |
+| `declarativeAgent.json` | The agent definition — name, instructions, conversation starters, and actions. You get the **full** declarative agent schema here, not a reduced subset. |
+| `ai-plugin.json` | Describes the agent's actions to the model. |
+| `instruction.txt` | Natural-language instructions that shape the agent's behaviour. |
+
+Because you author `manifest.json` and `declarativeAgent.json` yourself, a Copilot App is a *full* declarative agent — you can add knowledge sources, extra actions, and conversation starters. The SPFx components are one part of a broader agent you control. Components are grouped into the agent through `copilot-agent.json`, and at build time the toolchain merges your agent definition with the components (and their tools/properties) into the `.sppkg`.
+
+---
+
+## Key concepts worth knowing up front
+
+### Two display modes
+
+A Copilot component declares the layouts it supports via the `availableDisplayModes` capability in its manifest:
+
+- **`inline`** — renders compactly within the conversation flow (the default).
+- **`fullscreen`** — expands to take over the Copilot surface for richer interactions.
+
+The host owns layout. Your component reads the current mode from `this.hostContext.displayMode` and can *request* expansion with `this.requestDisplayModeAsync('fullscreen')`; collapsing back is always host-initiated and arrives via `onHostContextChanged`.
+
+```json
+// component manifest (excerpt)
+"capabilities": {
+  "availableDisplayModes": ["inline", "fullscreen"]
+}
+```
+
+### Multiple tools in one package
+
+One Copilot App can expose **multiple tools** from a single package. Each component declares one or more tools in its manifest, and each tool becomes an action the declarative agent can invoke — so you can group related capabilities (e.g. a "status" tool and a "reporting" tool) into one deployable unit that shares build output, hosting, and lifecycle.
+
+### Parameterized initial rendering
+
+Each tool can define a properties schema. When the agent invokes a tool, Copilot passes those properties into the component, which reads them from `this.properties` to drive its first render — so the same component can serve many scenarios without shipping a separate component for each.
+
+```ts
+protected render(): void {
+  const message: string = this.properties.message;
+  // ...use properties to drive the initial render
+}
+```
+
+### Automatic hosting in the customer tenant
+
+Set `includeClientSideAssets` to `true` in `package-solution.json` and the component's JavaScript is bundled into the `.sppkg` and hosted **inside the customer's own tenant** — no external CDN, Azure Storage, or separate hosting to provision.
+
+```json
+"solution": {
+  "includeClientSideAssets": true
+}
+```
+
+### Declarative agent synced to the tenant agent catalog
+
+When you deploy the package to the **SharePoint app catalog**, the declarative agent is automatically synced to the tenant's agent catalog — there's no separate publish step in Copilot or the Teams admin center. Updating or removing the app updates or removes the agent too.
+
+---
+
 ## What you can do with them
 
 - **Render rich, interactive UI inside Copilot** — surface custom, branded experiences instead of plain text.
@@ -71,12 +137,18 @@ Because a Copilot App is still just an `.sppkg`, you can **move it between tenan
 ## How to get started
 
 1. Set up an SPFx **v1.24 preview** development environment.
-2. Scaffold a **Copilot component** and its declarative agent definition.
-3. Run and test it locally in the **Copilot Workbench**.
-4. Package as `.sppkg` and deploy to your tenant's app catalog.
+2. Scaffold a new Copilot App with the SharePoint Framework generator. It offers **three starter templates**, just like web parts:
+   - **Minimal** — the leanest starting point, only the code needed to render a component.
+   - **No framework** — plain TypeScript, no UI framework, full control over rendering.
+   - **React** — a React-based starting point for teams already on React.
+3. Run your dev server with `heft start --nobrowser` and open the **Copilot Workbench** at `/_layouts/15/copilotworkbench.aspx` on any site in your tenant (e.g. `https://yourtenant.sharepoint.com/_layouts/15/copilotworkbench.aspx`). The debug build of your component loads there for a fast inner loop — iterate on rendering, display modes, and tool parameters against a real Copilot surface without a full deploy.
+4. Package as `.sppkg` and deploy to your tenant's app catalog. Select **Add to Teams** to deploy the declarative agent to the tenant agent catalog.
 5. Surface it in Microsoft 365 Copilot.
 
 Microsoft has a step-by-step tutorial — *Build your first SharePoint Copilot App* — linked in the references below.
+
+> **Dev tip:** whenever you change the agent side (`declarativeAgent.json`, instructions, conversation starters, or actions), **bump the declarative agent `version`**. If the version stays the same, Copilot may keep using the previously synced agent even after you redeploy.
+{: .prompt-tip }
 
 ---
 
@@ -86,6 +158,7 @@ Microsoft has a step-by-step tutorial — *Build your first SharePoint Copilot A
 - **Copilot canvas only (for now):** in this initial preview, components render only in the Copilot UX; support for more surfaces is in the works.
 - **Duplicate tool names:** if two solutions register a tool with the same name, Copilot loads the first one it finds. This is a known preview-only issue with a fix targeted for **August 2026**.
 - **Store not supported:** distributing Copilot Apps through the store isn't supported during public preview.
+- **Agent sync can lag:** deployment of the agent to the tenant agent catalog can take some time; improvements are planned.
 - **Preview software:** capabilities, APIs, and the working name may change before GA.
 
 ---
