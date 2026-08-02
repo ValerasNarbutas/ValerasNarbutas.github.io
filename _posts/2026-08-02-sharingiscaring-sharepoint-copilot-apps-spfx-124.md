@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Copilot Apps: build interactive Copilot UI with SPFx (preview)"
-author: valeras
+author: ValerasNarbutas
 date: 2026-08-02 09:00:00 +0300
 categories:
   - SharingIsCaring

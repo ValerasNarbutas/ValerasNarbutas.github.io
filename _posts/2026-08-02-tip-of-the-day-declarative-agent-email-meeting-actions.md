@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Declarative agents can now act on email and meetings (manifest 1.8)"
-author: valeras
+author: ValerasNarbutas
 date: 2026-08-02 08:00:00 +0300
 categories:
   - TipOfTheDay
