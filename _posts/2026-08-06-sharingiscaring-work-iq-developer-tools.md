@@ -1,7 +1,7 @@
 ---
 title: "Work IQ Developer Tools: Build, Evaluate, Publish, and Monitor Copilot Plugins"
 author: ValerasNarbutas
-date: 2026-09-25 13:00:00 +0300
+date: 2026-08-06 19:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

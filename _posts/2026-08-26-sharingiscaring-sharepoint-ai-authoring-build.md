@@ -1,7 +1,7 @@
 ---
 title: "SharePoint AI Authoring: From an Idea to a Site with Build"
 author: ValerasNarbutas
-date: 2026-09-25 14:00:00 +0300
+date: 2026-08-26 18:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

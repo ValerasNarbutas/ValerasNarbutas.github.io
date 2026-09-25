@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Tell Your AI Agent to Use the SPFx Upgrade Command"
 author: ValerasNarbutas
-date: 2026-09-25 17:00:00 +0300
+date: 2026-08-12 11:00:00 +0300
 categories:
   - TipOfTheDay
   - AI

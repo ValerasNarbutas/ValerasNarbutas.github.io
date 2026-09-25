@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Give Your Coding Agent Microsoft 365 Context with Work IQ"
 author: ValerasNarbutas
-date: 2026-09-25 19:00:00 +0300
+date: 2026-08-03 10:00:00 +0300
 categories:
   - TipOfTheDay
   - AI

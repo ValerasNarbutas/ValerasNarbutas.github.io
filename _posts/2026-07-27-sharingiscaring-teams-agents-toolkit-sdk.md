@@ -1,7 +1,7 @@
 ---
 title: "Building Teams Agents with the Microsoft 365 Agents Toolkit and Teams SDK"
 author: valeras
-date: 2026-09-25 22:00:00 +0300
+date: 2026-07-27 18:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

@@ -1,7 +1,7 @@
 ---
 title: "Copilot Components: Bringing SPFx Experiences into the Copilot Canvas"
 author: ValerasNarbutas
-date: 2026-09-25 15:00:00 +0300
+date: 2026-07-09 18:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

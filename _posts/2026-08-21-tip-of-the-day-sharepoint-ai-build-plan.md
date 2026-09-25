@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Review the SharePoint AI Build Plan Before You Build"
 author: ValerasNarbutas
-date: 2026-09-25 18:00:00 +0300
+date: 2026-08-21 09:00:00 +0300
 categories:
   - TipOfTheDay
   - AI

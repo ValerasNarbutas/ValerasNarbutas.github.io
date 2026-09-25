@@ -1,7 +1,7 @@
 ---
 title: "Work IQ API: Choosing Between A2A, MCP, and REST"
 author: ValerasNarbutas
-date: 2026-09-25 21:00:00 +0300
+date: 2026-06-02 22:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

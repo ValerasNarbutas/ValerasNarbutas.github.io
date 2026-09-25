@@ -1,7 +1,7 @@
 ---
 title: "SPFx Dev Skills: Give AI Coding Agents the Right SharePoint Toolchain"
 author: ValerasNarbutas
-date: 2026-09-25 16:00:00 +0300
+date: 2026-09-02 18:00:00 +0300
 categories:
   - SharingIsCaring
   - AI

@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Choose the Right Copilot Component Display Mode"
 author: valeras
-date: 2026-09-25 22:30:00 +0300
+date: 2026-09-15 16:00:00 +0300
 categories:
   - TipOfTheDay
   - AI

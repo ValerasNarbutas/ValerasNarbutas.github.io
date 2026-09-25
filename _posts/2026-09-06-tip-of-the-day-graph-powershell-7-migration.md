@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Start Moving Microsoft Graph PowerShell Scripts to PowerShell 7"
 author: ValerasNarbutas
-date: 2026-09-25 20:00:00 +0300
+date: 2026-09-06 14:00:00 +0300
 categories:
   - TipOfTheDay
   - Microsoft365

@@ -1,7 +1,7 @@
 ---
 title: "Tip of the day – Mark Trusted SharePoint Sites as Authoritative for Copilot Search"
 author: valeras
-date: 2026-09-25 23:00:00 +0300
+date: 2026-09-23 13:00:00 +0300
 categories:
   - TipOfTheDay
   - AI
