@@ -68,7 +68,7 @@ The host owns the layout. Your component should read the current mode from the h
 
 ### Practical rule
 
-Start with `inline`. Request `fullscreen` only at the moment when the user needs more room, and keep the important context or confirmation state visible during the transition.
+My recommendation is to start with `inline`. Request `fullscreen` only at the moment when the user needs more room, and keep the important context or confirmation state visible during the transition. Design the component so it remains correct when the host, rather than your code, controls the return to inline mode.
 
 Copilot Components are currently in preview, so APIs and behavior may change. Validate the experience in a test tenant before planning a production rollout.
 

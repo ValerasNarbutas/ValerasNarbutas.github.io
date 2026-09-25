@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Give Your Coding Agent Microsoft 365 Context with Work IQ"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-03 10:00:00 +0300
 categories:
   - TipOfTheDay
@@ -21,7 +21,7 @@ image:
   alt: Work IQ connecting an AI coding agent to Microsoft 365 context
 ---
 
-## The tip
+## Tip
 
 If your code task depends on a meeting, email, Teams conversation, or SharePoint document, connect your AI coding assistant to **Microsoft Work IQ** instead of copying the context into the chat manually.
 
@@ -34,7 +34,7 @@ Work IQ supports two useful modes:
 
 Microsoft's official Work IQ repository documents this quick-start flow:
 
-````text
+```text
 copilot
 /plugin marketplace add microsoft/work-iq
 /plugin install workiq@work-iq
@@ -42,15 +42,15 @@ copilot
 
 Restart Copilot CLI, then ask questions such as:
 
-````text
+```text
 What are my upcoming meetings this week?
 ```
 
-````text
+```text
 Summarize emails from Sarah about the budget.
 ```
 
-````text
+```text
 Find documents I worked on yesterday.
 ```
 
@@ -86,13 +86,15 @@ Suppose you are implementing a feature discussed in a planning meeting. Instead 
 
 Example:
 
-````text
+```text
 Find the authentication requirements discussed in my recent meetings
 and emails about the customer portal. Summarize the decisions and list
 open questions before suggesting code changes.
 ```
 
 This gives the agent more useful workplace context while keeping the coding task in the same workflow.
+
+My recommendation is to ask Work IQ for the source decisions and unresolved questions before asking the coding agent to change code. That separates context gathering from implementation and makes unsupported assumptions easier to spot.
 
 ## Check access before using it
 

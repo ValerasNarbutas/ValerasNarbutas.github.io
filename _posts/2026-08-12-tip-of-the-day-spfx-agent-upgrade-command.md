@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Tell Your AI Agent to Use the SPFx Upgrade Command"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-12 11:00:00 +0300
 categories:
   - TipOfTheDay
@@ -22,11 +22,11 @@ image:
   alt: AI coding agent using the SPFx project upgrade command
 ---
 
-## The tip
+## Tip
 
 When asking an AI coding agent to upgrade a SharePoint Framework project, do not ask it only to “update the packages.” Tell it to inspect the current version and use the **CLI for Microsoft 365** `spfx project upgrade` command.
 
-````text
+```text
 Inspect the current SPFx version and Node.js compatibility.
 Use CLI for Microsoft 365's spfx project upgrade command to generate
 and apply the version-specific changes in order. Then run a clean build
@@ -43,6 +43,8 @@ Microsoft's SPFx Dev Skills evaluation compared a baseline upgrade with one wher
 - Configuration correctness improved from **38/85 to 83/85**.
 
 The lesson is simple: an agent may have access to a useful tool without deciding to use it. Make the important tool part of the request.
+
+My recommendation is to ask for the generated upgrade report before accepting any edits. It gives you a version-specific checklist to compare with the final diff instead of trusting a generic package update.
 
 ## A safe workflow
 

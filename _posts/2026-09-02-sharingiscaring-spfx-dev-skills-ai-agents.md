@@ -1,6 +1,6 @@
 ---
 title: "SPFx Dev Skills: Give AI Coding Agents the Right SharePoint Toolchain"
-author: ValerasNarbutas
+author: valeras
 date: 2026-09-02 18:00:00 +0300
 categories:
   - SharingIsCaring
@@ -66,7 +66,7 @@ git clone https://github.com/SharePoint/spfx-dev-skills.git
 
 Then copy this folder into a skills directory supported by your coding agent:
 
-````text
+```text
 plugins/spfx/skills/spfx/
 ```
 
@@ -78,19 +78,19 @@ The repository currently describes marketplace or one-command distribution as a 
 
 Once the skill is installed, ask for a concrete SPFx task:
 
-````text
+```text
 Create an SPFx React web part called RecentDocuments.
 ```
 
-````text
+```text
 Upgrade this SPFx solution to the requested target version.
 ```
 
-````text
+```text
 Add an accessible Fluent UI v9 card layout to this web part.
 ```
 
-````text
+```text
 Read items from the Projects list and display them.
 ```
 
@@ -112,7 +112,7 @@ The lesson is broader than SPFx: a tool being available does not mean an agent w
 
 When asking an agent to upgrade an SPFx project, make the important path explicit:
 
-````text
+```text
 Inspect the current SPFx version and Node.js compatibility.
 Use CLI for Microsoft 365's spfx project upgrade command to generate
 and apply the version-specific changes in order. Then run a clean build
@@ -164,11 +164,11 @@ Before accepting an agent-generated SPFx change:
 
 The skill improves the starting point; it does not remove engineering responsibility.
 
-## Why this matters
+## My practical takeaway
 
 The most useful AI development skill is not the one that generates the largest amount of code. It is the one that reliably chooses the correct source, toolchain, and validation path for the task.
 
-SPFx Dev Skills are a practical example: detect the version, select Heft or gulp, use CLI for Microsoft 365 for upgrades, follow a focused UI and data-access playbook, and finish with a clean build. That is the kind of repeatable behavior that makes an AI coding agent safer and more useful for Microsoft 365 development.
+For an existing project, I would first ask the agent to report the SPFx, Node.js, TypeScript, and build-tool versions without changing anything. Only after that inventory looks correct would I ask it to load the skill, generate an upgrade report, apply changes, and run a clean build. That small pause catches many confident but incorrect assumptions.
 
 ## References
 

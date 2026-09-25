@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Start Moving Microsoft Graph PowerShell Scripts to PowerShell 7"
-author: ValerasNarbutas
+author: valeras
 date: 2026-09-06 14:00:00 +0300
 categories:
   - TipOfTheDay
@@ -21,7 +21,7 @@ image:
   alt: Microsoft Graph PowerShell migration from Windows PowerShell 5.1 to PowerShell 7
 ---
 
-## The tip
+## Tip
 
 If your Microsoft Graph automation still runs on Windows PowerShell 5.1, start planning the move to **PowerShell 7.x** now.
 
@@ -64,6 +64,8 @@ Check the areas most likely to expose differences:
 - SharePoint and Microsoft Graph permissions
 
 Keep the v2.x modules in place while you validate your scripts. The goal is to move the runtime first, then plan the module upgrade when v3 is available and your compatibility testing is complete.
+
+I would migrate in two stages: first run the existing v2 scripts under PowerShell 7, then evaluate the Graph PowerShell v3 module separately when it is available. Splitting the runtime and module changes makes failures much easier to diagnose.
 
 > Windows PowerShell 5.1 is not being switched off today. The announcement describes a planned retirement of active maintenance, so use the transition period to migrate rather than waiting for v3.
 {: .prompt-tip }

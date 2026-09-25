@@ -1,6 +1,6 @@
 ---
 title: "Work IQ API: Choosing Between A2A, MCP, and REST"
-author: ValerasNarbutas
+author: valeras
 date: 2026-06-02 22:00:00 +0300
 categories:
   - SharingIsCaring
@@ -68,7 +68,7 @@ Use A2A when one agent delegates work to Work IQ and needs a structured result. 
 
 Conceptually, an operations agent might ask Work IQ:
 
-````text
+```text
 Investigate the latest discussions, meetings, and documents about the
 deployment regression. Summarize the likely cause and list the owners
 of the unresolved actions.
@@ -151,11 +151,11 @@ Use this decision path when starting a new integration:
 4. Do you need more than a response, such as persistent intermediate results? Evaluate **Workspaces** with the selected protocol.
 5. In every case, define the user identity, permissions, data boundary, cost controls, and audit requirements before production use.
 
-## Why this matters
+## My practical takeaway
 
-Work IQ is not simply another connector. It is an attempt to make enterprise context a reusable platform capability for agents, while preserving the user's permissions and giving administrators a central governance point.
+I would choose the protocol from the caller, not from whichever sample is easiest to copy. For an assistant in an IDE, I would begin with MCP. For an application that owns the interface, I would begin with REST. I would use A2A only when another agent genuinely needs structured delegation and task state.
 
-The protocol choice should follow the caller and the workflow. A clear A2A, MCP, or REST boundary makes it easier to test the agent, monitor its behavior, and explain how Microsoft 365 data moves through the system.
+I would also start with one read-only scenario and representative user accounts. That makes it much easier to verify permission trimming, audit records, and Copilot Credit usage before adding write operations or a larger audience.
 
 ## References
 

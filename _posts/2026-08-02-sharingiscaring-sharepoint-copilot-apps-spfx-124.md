@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Copilot Apps: build interactive Copilot UI with SPFx (preview)"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-02 09:00:00 +0300
 categories:
   - SharingIsCaring
@@ -27,6 +27,9 @@ For years SPFx has been the way to extend the *SharePoint* experience. With **Sh
 
 > SharePoint Copilot Apps are in **preview** and subject to change. Don't use them in production — APIs, schemas, and the \"SharePoint Copilot Apps\" working name may change before GA.
 {: .prompt-warning }
+
+> Microsoft later used **Copilot Components** as the likely product name. The underlying preview model remains an SPFx component packaged with a declarative agent.
+{: .prompt-info }
 
 ---
 
@@ -163,9 +166,11 @@ Microsoft has a step-by-step tutorial — *Build your first SharePoint Copilot A
 
 ---
 
-## Why this matters
+## What I would build first
 
-If your team already ships SPFx web parts, Copilot Apps are the shortest path to a genuinely interactive Copilot experience — no new hosting model, no new build pipeline, no separate app to maintain. You reuse the components, the `.sppkg`, and the app catalog you already run. That's a big deal for M365 shops that want Copilot to *do* something visual and branded, not just answer in text.
+If your team already ships SPFx web parts, start with one familiar workflow that needs more than a text answer: review a project status, confirm a request, or edit a small set of fields. I would reuse the existing React UI and business rules, but keep the Copilot host adapter separate from the web-part entry point.
+
+That experiment is large enough to test tool parameters, inline and fullscreen behavior, deployment, and agent synchronization without committing an important production process to preview APIs.
 
 ---
 

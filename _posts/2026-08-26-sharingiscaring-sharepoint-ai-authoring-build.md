@@ -1,6 +1,6 @@
 ---
 title: "SharePoint AI Authoring: From an Idea to a Site with Build"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-26 18:00:00 +0300
 categories:
   - SharingIsCaring
@@ -47,7 +47,7 @@ If the Site option is unavailable, self-service site creation may be disabled by
 
 Start with the business scenario rather than a list of technical objects. For example:
 
-````text
+```text
 Create a site for a software project team to track milestones,
 risks, decisions, and onboarding information. Include a project
 overview page, a task list with owners and deadlines, a document
@@ -69,11 +69,11 @@ The planning experience presents a visual outline of the proposed site. Dependin
 
 Review each component before selecting **Build it**. You can also continue the conversation with changes such as:
 
-````text
+```text
 Add a time estimate column to the Tasks list.
 ```
 
-````text
+```text
 Remove the Team overview page and add a page for release notes.
 ```
 
@@ -85,7 +85,7 @@ While the plan is refined, Copilot creates a structured Markdown build plan name
 
 After a successful site creation, Microsoft documents the plan at:
 
-````text
+```text
 [Site Name] > Site contents > Agent Assets > Plans > SitePlan.md
 ```
 
@@ -140,9 +140,9 @@ Get-SPOTenant | Select-Object KnowledgeAgentScope
 
 The parameter names retain the `KnowledgeAgent` terminology during preview. Use the latest SharePoint Online Management Shell version documented by Microsoft before applying these settings, and test tenant-wide changes with your administrators.
 
-## A safe way to try it
+## What I would do first
 
-For a first experiment, use a non-production team site and a scenario with no confidential source documents:
+For a first experiment, I would use a non-production team site and a scenario with no confidential source documents:
 
 1. Describe one concrete business process.
 2. Review every proposed page, list, library, column, and view.
@@ -154,11 +154,11 @@ For a first experiment, use a non-production team site and a scenario with no co
 
 This gives you the speed of AI-assisted authoring without treating generated content or configuration as automatically trustworthy.
 
-## Why this matters
+## My practical takeaway
 
 The interesting change is the combination of **planning**, **natural-language refinement**, and **provisioning**. Copilot is not only helping write page content; it is helping users express a solution structure that SharePoint can turn into a site.
 
-For developers and platform teams, this creates a new design question: which parts of a SharePoint solution should be generated, which should be standardized through templates, and which must remain explicitly governed? The strongest results will come from combining AI-assisted authoring with clear site design standards and human review.
+For developers and platform teams, this creates a new design question: which parts of a SharePoint solution should be generated, which should be standardized through templates, and which must remain explicitly governed? I would use Build for the initial information architecture and sample content, then apply the same permission, accessibility, lifecycle, and ownership checks used for a manually created site.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Work IQ Developer Tools: Build, Evaluate, Publish, and Monitor Copilot Plugins"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-06 19:00:00 +0300
 categories:
   - SharingIsCaring
@@ -36,7 +36,7 @@ The difficult part has often been the lifecycle around the code: scaffolding, va
 
 The central idea is a shared workflow for both developers and coding agents:
 
-````text
+```text
 create -> configure -> validate -> provision -> package -> share -> ask -> eval -> publish -> monitor
 ```
 
@@ -68,7 +68,7 @@ The shell commands above come from Microsoft's announcement. As with any remote 
 
 WIQD includes an agent plugin so a coding agent can work with the lifecycle instead of guessing the file structure. A request can describe the complete outcome:
 
-````text
+```text
 Create an internal support plugin. Add a declarative agent for common
 knowledge-base questions, a SKILL.md skill for triaging support tickets,
 and a remote MCP connector for our support platform. Validate it, generate
@@ -110,7 +110,7 @@ An agent that works for one demonstration is not necessarily ready for real user
 
 The documented CLI flow is:
 
-````text
+```text
 wiqd agent eval init
 wiqd agent eval
 ```
@@ -129,9 +129,9 @@ The preview aims to keep the last mile in the same workflow:
 
 Monitoring creates a feedback loop: observe how the plugin is used, add real usage patterns to the evaluation set, improve the plugin, and publish a reviewed update.
 
-## A practical adoption pattern
+## What I would do first
 
-If you already build declarative agents or MCP integrations, start with a small internal plugin:
+I would start with a small internal plugin whose expected behavior can be described in a short evaluation set:
 
 1. Choose one narrow workflow with a clear owner and a small set of permitted tools.
 2. Scaffold the plugin and inspect every generated manifest.
@@ -151,14 +151,14 @@ Work IQ Developer Tools connect three trends that are easy to discuss separately
 - **Plugins** make skills, agents, and tools reusable.
 - **Evaluation and monitoring** make agent development an engineering lifecycle rather than a prompt experiment.
 
-The important shift is not simply a new CLI. It is the attempt to give humans and coding agents the same contract for building, checking, shipping, and improving Copilot extensibility.
+The important shift is not simply a new CLI. It is the attempt to give humans and coding agents the same contract for building, checking, shipping, and improving Copilot extensibility. I would judge the preview by whether that contract remains repeatable in local development and CI, not by how quickly it can generate the first demo.
 
 ## References
 
 - [Announcing the preview of the Work IQ Developer Tools](https://devblogs.microsoft.com/microsoft365dev/announcing-the-preview-of-the-work-iq-developer-tools/)
 - [Work IQ overview](https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq)
 - [Microsoft Work IQ CLI](https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq/cli)
-- [Microsoft Work IQ API overview](https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq-api-overview)
+- [Microsoft Work IQ API overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/api-overview)
 
 ## Image Prompt
 

@@ -1,6 +1,6 @@
 ---
 title: "Copilot Components: Bringing SPFx Experiences into the Copilot Canvas"
-author: ValerasNarbutas
+author: valeras
 date: 2026-07-09 18:00:00 +0300
 categories:
   - SharingIsCaring
@@ -124,7 +124,7 @@ The solution can contain the component source and the declarative agent definiti
 
 The package typically includes:
 
-````text
+```text
 copilot/
   manifest.json
   declarativeAgent.json
@@ -150,9 +150,9 @@ Microsoft says licensing and cost details for general availability will be confi
 
 The roadmap also confirms React 18 support is coming in SPFx 1.24, and the Copilot Component React templates are already updated for the preview. Test third-party libraries carefully because React 18's stricter rendering behavior can expose compatibility issues.
 
-## A sensible first experiment
+## What I would try first
 
-Choose a workflow where the user needs to review data and make a decision:
+I would choose a workflow where the user needs to review data and make one clear decision. A project-status review or a simple approval is a better first component than a broad agent that tries to manage an entire business process.
 
 1. Install the SPFx 1.24 preview toolchain.
 2. Start with Microsoft's Copilot Component samples.
@@ -165,15 +165,15 @@ Choose a workflow where the user needs to review data and make a decision:
 
 Avoid beginning with a broad “do everything” agent. A small approval or status scenario makes it easier to evaluate the component's tool contract and the user experience.
 
-## Why this matters
+## My practical takeaway
 
-Copilot Components make the Copilot canvas a potential host for the interactive experiences that Microsoft 365 teams already know how to build with SPFx. The opportunity is not to replace SharePoint pages or flexible sections. It is to choose the right surface:
+The opportunity is not to replace SharePoint pages or flexible sections. It is to choose the right surface:
 
 - Use a SharePoint page for persistent navigation and content.
 - Use flexible sections to arrange page web parts.
 - Use Copilot Components when a conversational request should lead to a guided, interactive action.
 
-That separation produces better experiences than treating every Copilot request as either plain text or a full SharePoint page.
+For my first implementation, I would share the React UI and business logic but keep the host adapters separate. That avoids forcing page assumptions into the Copilot canvas and makes display-mode, permissions, and error-state testing much clearer.
 
 ## References
 
