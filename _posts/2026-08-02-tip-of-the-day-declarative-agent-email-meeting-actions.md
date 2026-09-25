@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Declarative agents can now act on email and meetings (manifest 1.8)"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-02 08:00:00 +0300
 categories:
   - TipOfTheDay
@@ -79,6 +79,8 @@ Declarative agent capabilities are declared in the `capabilities` array of the m
 - Set your manifest `version` to `1.8` and point `$schema` at the v1.8 schema.
 - Review each capability's exact properties in the manifest reference.
 - Remember that write actions on email and calendar deserve careful testing — start with supervised flows.
+
+My recommendation is to enable one capability at a time and begin with a scenario that keeps the user in control, such as preparing a draft or proposing meeting times. Verify exactly what the agent plans to change before allowing it to send, delete, or update anything.
 
 ---
 

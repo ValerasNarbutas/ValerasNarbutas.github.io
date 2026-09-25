@@ -59,6 +59,18 @@ Before adding a site, check:
 
 Revisit authoritative sites when ownership, information architecture, or business policy changes.
 
+### Configure the site
+
+The current release uses SharePoint Online PowerShell rather than a SharePoint admin center setting:
+
+```powershell
+Connect-SPOService -Url "https://<tenant>-admin.sharepoint.com"
+Set-SPOSite -Identity "https://<tenant>.sharepoint.com/sites/<siteName>" `
+  -IsAuthoritative $true
+```
+
+My recommendation is to begin with a small, reviewed set of official sites. Microsoft currently supports up to 100 authoritative sites, and changes can take up to 72 hours to appear in supported experiences, so record the owner and review date for every designation.
+
 ## References
 
 - [SharePoint authoritative sites in Copilot Search](https://learn.microsoft.com/en-us/sharepoint/sharepoint-authoritative-sites)

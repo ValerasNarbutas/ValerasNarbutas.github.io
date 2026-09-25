@@ -53,7 +53,7 @@ The Microsoft 365 Agents Toolkit is the development workflow around an agent pro
 
 At a high level, the workflow is:
 
-````text
+```text
 Create project
     -> Configure the agent and environment
     -> Run locally and debug
@@ -78,7 +78,7 @@ This is especially important for JavaScript and TypeScript projects. SDKs, packa
 
 A maintainable Teams agent usually has these boundaries:
 
-````text
+```text
 Teams client
     -> Teams app or bot endpoint
         -> Agent orchestration
@@ -162,9 +162,9 @@ Before making the agent available to a team, verify:
 
 The toolkit can simplify provisioning, but it does not decide whether the resulting permissions or actions are appropriate for your organization.
 
-## Choosing a starting point
+## What I would build first
 
-Use this quick guide:
+I would begin with a narrow read-only assistant in a one-to-one chat, then add a confirmed action only after grounding and permissions are reliable. Use this guide to choose the development path:
 
 1. Need a guided Teams project workflow? Start with **Microsoft 365 Agents Toolkit**.
 2. Need current Teams app and agent platform capabilities? Start with **Teams SDK**.
@@ -172,7 +172,7 @@ Use this quick guide:
 4. Need a broader Microsoft 365 agent runtime? Evaluate **Microsoft 365 Agents SDK**.
 5. Need reusable external tools? Add **MCP** behind a narrow, governed interface.
 
-The most reliable implementation is usually incremental: first answer questions, then add read-only tools, then add confirmed actions, and only later consider autonomous workflow steps.
+That sequence keeps testing manageable: first answer questions, then add read-only tools, then add confirmed actions, and only later consider autonomous workflow steps. It also gives the team evidence about real usage before granting the agent broader capabilities.
 
 ## References
 

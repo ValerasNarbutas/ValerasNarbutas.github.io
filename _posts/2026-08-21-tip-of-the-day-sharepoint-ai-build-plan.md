@@ -1,6 +1,6 @@
 ---
 title: "Tip of the day – Review the SharePoint AI Build Plan Before You Build"
-author: ValerasNarbutas
+author: valeras
 date: 2026-08-21 09:00:00 +0300
 categories:
   - TipOfTheDay
@@ -21,7 +21,7 @@ image:
   alt: Reviewing an AI-generated SharePoint site build plan
 ---
 
-## The tip
+## Tip
 
 When using **Create sites with AI** in SharePoint, treat the generated outline as a design review step, not as a preview of something that has already been created.
 
@@ -29,7 +29,7 @@ Describe the outcome you want, review the proposed pages, lists, libraries, colu
 
 ## A useful prompt
 
-````text
+```text
 Create a site for a software project team to track milestones,
 risks, decisions, onboarding information, and release notes.
 Include a Tasks list with owners, deadlines, and status, plus a
@@ -42,21 +42,23 @@ Copilot can ask follow-up questions before it proposes the structure. Use those 
 
 The planning experience lets you refine the outline with natural language:
 
-````text
+```text
 Add a time estimate column to the Tasks list.
 ```
 
-````text
+```text
 Remove the Team overview page and add a Release notes page.
 ```
 
 During planning, Copilot creates a structured Markdown build plan named **SitePlan.md**. After successful provisioning, Microsoft documents it here:
 
-````text
+```text
 [Site Name] > Site contents > Agent Assets > Plans > SitePlan.md
 ```
 
 Use the plan as a record of the approved structure, but still inspect the actual site after provisioning.
+
+I would not approve the first generated plan. I would remove unnecessary pages and sample content, confirm the owners of every list and library, and check which permissions must be configured manually before selecting **Build it**.
 
 ## Remember the preview boundaries
 
